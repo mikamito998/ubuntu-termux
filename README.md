@@ -47,7 +47,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreo
 sudo apt install -y git gtk2-engines-murrine
 sudo apt install -y xfce4-appmenu-plugin
 sudo apt install -y plank rofi
-git clone https://github.com/adil090x/rofi
+git clone https://github.com/adi1090x/rofi
 
 # Theme
 git clone https://github.com/vinceliuice/whitesur-gtk-theme && cd whitesur-gtk-theme && ./install.sh && cd
@@ -157,9 +157,9 @@ For nano style-1.rasi =
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
-
-
-
+Source: 
+https://github.com/vinceliuice
+https://github.com/adi1090x
 
 
 
