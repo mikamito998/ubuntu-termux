@@ -3,22 +3,23 @@ Setup Linux Proot on Android. It includes:
 - [x] Latest Stable Ubuntu
 - [x] XFCE4 Desktop
 - [x] VNC
-- [x] Firefox Browser
 - [x] Audio Support
+- [x] Firefox Browser
 - [x] Chromium Browser
-- [x] Gdebi Installer
-- [x] Parole Media Player
 - [x] Libre Office
+- [x] Gdebi Package Installer
+- [x] Parole Media Player
 - [x] MacOS Theme
+- [x] User and Simple Login
 
 ## 1. Install Ubuntu
 ```
-
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
 ```
 
 ## 2. Install XFCE
 ```
-
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
 
 ## 3. Install box86/box64 & wine86/wine64
@@ -28,17 +29,17 @@ Setup Linux Proot on Android. It includes:
 
 ## 4. Install Firefox
 ```
-
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
 
 ## 5. Install Chromium
 ```
-
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
 
 ## 6. Install Libre Office
 ```
-
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
 
 ## 7. Install MacOS Theme
