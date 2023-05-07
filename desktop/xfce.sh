@@ -11,7 +11,7 @@ sudo apt install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 sudo apt-mark hold udisks2
 sudo apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server
-sudo apt install -y xfce4 xfce4-terminal xfce4-goodies parole gdebi
+sudo apt install -y xfce4 xfce4-terminal xfce4-goodies
 sudo apt --fix-broken install
 sudo apt clean && sudo apt autoremove -y
 
