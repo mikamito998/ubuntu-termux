@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xf
 
 ## 3. Install box86/box64 & wine86/wine64
 ```
-
+wget https://raw.githubusercontent.com/xDoge26/Proot-Setup/main/Box86-64_Wine86-64.sh; chmod +x Box86-64_Wine86-64.sh; ./Box86-64_Wine86-64.sh; rm --force Box86-64_Wine86-64.sh
 ```
 
 ## 4. Install Firefox
