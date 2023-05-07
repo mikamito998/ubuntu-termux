@@ -11,13 +11,12 @@ Setup Linux Proot on Android. It includes:
 - [x] Libre Office
 - [x] MacOS Theme
 
-## 1. Install ubuntu
-#### 1.1 Proot ubuntu 
+## 1. Install Ubuntu
 ```
 
 ```
 
-## 2. Install xfce
+## 2. Install XFCE
 ```
 
 ```
@@ -27,22 +26,22 @@ Setup Linux Proot on Android. It includes:
 
 ```
 
-### Install Firefox
+## 4. Install Firefox
 ```
 
 ```
 
-### Install Chromium
+## 5. Install Chromium
 ```
 
 ```
 
-### Install Libre Office
+## 6. Install Libre Office
 ```
 
 ```
 
-### Install MacOS Theme
+## 7. Install MacOS Theme
 ```
 
 ```
