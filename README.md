@@ -9,7 +9,7 @@ Setup Linux Proot on Android. It includes:
 - [x] Libre Office
 - [x] MacOS Theme
 - [x] User and Simple Login
-- [x] Others
+- [x] Add-ons
 
 ## 1. Install Ubuntu
 ```
