@@ -158,7 +158,7 @@ For nano style-1.rasi =
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
-### 12. Install Add-ons
+## 8. Install Add-ons
 ```
 sudo apt install -y gdebi parole ristretto thunar-archive-plugin xfe mousepad
 ```
