@@ -7,8 +7,6 @@ Setup Linux Proot on Android. It includes:
 - [x] Firefox Browser
 - [x] Chromium Browser
 - [x] Libre Office
-- [x] Gdebi Package Installer
-- [x] Parole Media Player
 - [x] MacOS Theme
 - [x] User and Simple Login
 
