@@ -75,58 +75,58 @@ cd .local/share/applications && cat Launchpad.desktop && cd && cd .local/share/i
 cd rofi && ./setup.sh && cd && cd .config/rofi && rm config.rasi
 ```
 ### 2. Customize Windows Manager Tweak
-     - (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
-     - (Placement Tab) Slide to large until below M of "placement:",
-     - (Compositor Tab) Uncheck Show shadows under dock windows.
-close
+- (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
+- (Placement Tab) Slide to large until below M of "placement:",
+- (Compositor Tab) Uncheck Show shadows under dock windows.
+CLOSE
 
 ### 3. Customize Appearance
-     - (Style Tab) Select WhiteSur-Light,
-     - (Icons Tab) Select WhiteSur.
-close
+- (Style Tab) Select WhiteSur-Light,
+- (Icons Tab) Select WhiteSur.
+CLOSE
 
 ### 4. Customize Desktop Settings...
-     - (Background Tab) Select Folder "Other..." after that, Go to Home and click right on the blank, after that Check "Show Hidden Files", after that Open Folder "/.local/share/backgrounds" and then on the top panel Click "Open", and the last you can select any Wallpapers do you want.
-     - (Icons Tab) Change to (Icons orientation: Top Right Vertical) and click Arrange icons
-close
+- (Background Tab) Select Folder "Other..." after that, Go to Home and click right on the blank, after that Check "Show Hidden Files", after that Open Folder "/.local/share/backgrounds" and then on the top panel Click "Open", and the last you can select any Wallpapers do you want.
+- (Icons Tab) Change to (Icons orientation: Top Right Vertical) and click Arrange icons
+CLOSE
 
 ### 5. Customize Mouse and Touchpad
-     - (Theme Tab) Select WhiteSur Cursors.
-close
+- (Theme Tab) Select WhiteSur Cursors.
+CLOSE
 
 ### 6. Customize Window Manager
-     - (Style Tab) Font Sans Bold, size 12
-     - (Style Tab) Button Layout Active, x [] - Tittle
-     - (Style Tab) Button Layout Hidden, o ∆ ↑
-close
+- (Style Tab) Font Sans Bold, size 12
+- (Style Tab) Button Layout Active, x [] - Tittle
+- (Style Tab) Button Layout Hidden, o ∆ ↑
+CLOSE
 
 ### 7. Customize Panel Preferences
-     - (Panel) Remove "Panel 2" and Select "Panel 1"
-     - (Items Tab) Open Applications Menu, Change icon with Apple Logo "start-here", after that Select "Use custom menu file:" and change the menu with Xpple Menu ".local/share/menu/xpple.menu" and close.
-     - (Items Tab) Add and Open AppMenu Plugin after that Check "Use bold applications name" and close
-     - (Items Tab) Open "Action Buttons", Change "Appearance:" to "Action Buttons". And Uncheck "Lockscreen, Switch User, Separator, Suspend, Shut Down"
-     - (Items Tab) Remove "Workspace Switcher, Window Buttons"
-     - (Items Tab) Top to Bottom = Separator Transparent, Applications Menu, AppMenu Plugin, Separator Transparent, Separator, Status Tray Plugin, PulseAudio Plugin, Notification Plugin, Separator, Clock, Action Buttons
-     - (Appearance Tab) Turn off "Dark mode"
-     - (Appearance Tab) Fixed icon size 24
-close
+- (Panel) Remove "Panel 2" and Select "Panel 1"
+- (Items Tab) Open Applications Menu, Change icon with Apple Logo "start-here", after that Select "Use custom menu file:" and change the menu with Xpple Menu ".local/share/menu/xpple.menu" and close.
+- (Items Tab) Add and Open AppMenu Plugin after that Check "Use bold applications name" and close
+- (Items Tab) Open "Action Buttons", Change "Appearance:" to "Action Buttons". And Uncheck "Lockscreen, Switch User, Separator, Suspend, Shut Down"
+- Items Tab) Remove "Workspace Switcher, Window Buttons"
+- (Items Tab) Top to Bottom = Separator Transparent, Applications Menu, AppMenu Plugin, Separator Transparent, Separator, Status Tray Plugin, PulseAudio Plugin, Notification Plugin, Separator, Clock, Action Buttons
+- Appearance Tab) Turn off "Dark mode"
+- (Appearance Tab) Fixed icon size 24
+CLOSE
 
 ### 8. Customize Plank
 ```
 plank --preferences
 ```
-     - (Appearance Tab) Change from (Theme: Default) to (Theme: theme-Light)
-     - (Doclets) Add shortcut = "Desktop, Trash"
-close
+- (Appearance Tab) Change from (Theme: Default) to (Theme: theme-Light)
+- Doclets) Add shortcut = "Desktop, Trash"
+CLOSE
 
 ### 9. Customize Session and Startup
-     - (Application Autostart) Click add new autostart and fill (Name: Plank, Command: plank)
-close
+- (Application Autostart) Click add new autostart and fill (Name: Plank, Command: plank)
+CLOSE
 
 ### 10. Customize Launchpad
 #### Step 1
-     - Open file manager and open folder ".local/share/applications"
-     - Add Launchpad.desktop to plank (seek)
+- Open file manager and open folder ".local/share/applications"
+- Add Launchpad.desktop to plank (seek)
 
 #### Step 2, Change Launchpad.desktop
 ```
