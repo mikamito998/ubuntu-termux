@@ -162,11 +162,11 @@ For nano style-1.rasi =
 
 
 
-
-Hopefully this tutorial that I made myself can help you, thank you
-Source: 
+##### All the code here is not purely from me, but I have summarized it from various sources.  There is some code that I changed and fixed to make it install easily and run flawlessly
+##### Hopefully this tutorial that I made myself can help you, thank you
+##### Source: 
 - https://github.com/vinceliuice
 - https://github.com/adi1090x
 - https://github.com/xDoge26
-
+- Others
 
