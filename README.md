@@ -78,27 +78,27 @@ cd rofi && ./setup.sh && cd && cd .config/rofi && rm config.rasi
 - (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
 - (Placement Tab) Slide to large until below M of "placement:",
 - (Compositor Tab) Uncheck Show shadows under dock windows.
-CLOSE
+- CLOSE
 
 ### 3. Customize Appearance
 - (Style Tab) Select WhiteSur-Light,
 - (Icons Tab) Select WhiteSur.
-CLOSE
+- CLOSE
 
 ### 4. Customize Desktop Settings...
 - (Background Tab) Select Folder "Other..." after that, Go to Home and click right on the blank, after that Check "Show Hidden Files", after that Open Folder "/.local/share/backgrounds" and then on the top panel Click "Open", and the last you can select any Wallpapers do you want.
 - (Icons Tab) Change to (Icons orientation: Top Right Vertical) and click Arrange icons
-CLOSE
+- CLOSE
 
 ### 5. Customize Mouse and Touchpad
 - (Theme Tab) Select WhiteSur Cursors.
-CLOSE
+- CLOSE
 
 ### 6. Customize Window Manager
 - (Style Tab) Font Sans Bold, size 12
 - (Style Tab) Button Layout Active, x [] - Tittle
 - (Style Tab) Button Layout Hidden, o ∆ ↑
-CLOSE
+- CLOSE
 
 ### 7. Customize Panel Preferences
 - (Panel) Remove "Panel 2" and Select "Panel 1"
@@ -109,7 +109,7 @@ CLOSE
 - (Items Tab) Top to Bottom = Separator Transparent, Applications Menu, AppMenu Plugin, Separator Transparent, Separator, Status Tray Plugin, PulseAudio Plugin, Notification Plugin, Separator, Clock, Action Buttons
 - Appearance Tab) Turn off "Dark mode"
 - (Appearance Tab) Fixed icon size 24
-CLOSE
+- CLOSE
 
 ### 8. Customize Plank
 ```
@@ -117,11 +117,11 @@ plank --preferences
 ```
 - (Appearance Tab) Change from (Theme: Default) to (Theme: theme-Light)
 - Doclets) Add shortcut = "Desktop, Trash"
-CLOSE
+- CLOSE
 
 ### 9. Customize Session and Startup
 - (Application Autostart) Click add new autostart and fill (Name: Plank, Command: plank)
-CLOSE
+- CLOSE
 
 ### 10. Customize Launchpad
 #### Step 1
@@ -135,7 +135,7 @@ cd && cd .local/share/applications && nano Launchpad.desktop
 For nano Launchpad.desktop =
 - lines number 3, Change to (Icon=~/.local/share/icons/WhiteSur/launchpad.svg)
 - lines number 4, Change to (Exec=sh -c /home/ade/.config/rofi/launchers/type-3/launcher.sh)
-SAVE and EXIT
+- SAVE and EXIT
 
 ### 11. Customize Rofi
 #### Step 1, Change launcher.sh
@@ -145,7 +145,7 @@ cd && cd .config/rofi/launchers/type-3 && nano launcher.sh
 For nano launcher.sh =
 - lines number 14, Change to (theme='style-1')
 - lines number 17, Create new line above "-show drun \" and write (-icon-theme WhiteSur \)
-SAVE and EXIT
+- SAVE and EXIT
 
 #### Step 2, Change style-1.rasi
 ```
@@ -156,7 +156,7 @@ For nano style-1.rasi =
 - lines number 38, Change to (background-color: black / 80%;)
 - lines number 59 Inputbar, Change to (margin: 0% 25%;)
 - lines number 97 Listview, Change to (scrollbar: true;)
-SAVE and EXIT
+- SAVE and EXIT
 
 
 
