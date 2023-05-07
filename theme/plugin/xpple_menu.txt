@@ -1,9 +1,0 @@
-Description:
-The Xpple menu is a drop-down menu for Xfce desktop, similar to the Apple's menu.
-
-How to install :
-- Extract xpple-menu.zip
-- Copy file *.desktop on /applications directory to ~/.local/share/appliactions
-- Copy xpple.menu to ~/.config/menu/
-- Add panel item : Application Menu
-- on Application menu properties : Menu File, change to "Use custom menu file" then search and browse xpple.menu
