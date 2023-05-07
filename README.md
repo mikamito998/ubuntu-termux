@@ -158,12 +158,7 @@ For nano style-1.rasi =
 - SAVE and EXIT
 
 
-
-
-
-
-##### All the code here is not purely from me, but I have summarized it from various sources.  There is some code that I changed and fixed to make it install easily and run flawlessly
-##### Hopefully this tutorial that I made myself can help you, thank you
+##### All the code here is not purely from me, but I have summarized it from various sources. There is some code that I changed and fixed to make it install easily and run flawlessly.
 ##### Source: 
 - https://github.com/vinceliuice
 - https://github.com/adi1090x
