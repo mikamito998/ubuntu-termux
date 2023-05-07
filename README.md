@@ -24,7 +24,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xf
 ```
 wget https://raw.githubusercontent.com/xDoge26/Proot-Setup/main/Box86-64_Wine86-64.sh; chmod +x Box86-64_Wine86-64.sh; ./Box86-64_Wine86-64.sh; rm --force Box86-64_Wine86-64.sh
 ```
-
+Source: https://github.com/xDoge26
 ## 4. Install Firefox
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
