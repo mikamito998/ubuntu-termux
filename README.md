@@ -130,7 +130,7 @@ CLOSE
 
 #### Step 2, Change Launchpad.desktop
 ```
-cd .local/share/applications && nano Launchpad.desktop
+cd && cd .local/share/applications && nano Launchpad.desktop
 ```
 For nano Launchpad.desktop =
 - lines number 3, Change to (Icon=~/.local/share/icons/WhiteSur/launchpad.svg)
@@ -140,7 +140,7 @@ SAVE and EXIT
 ### 11. Customize Rofi
 #### Step 1, Change launcher.sh
 ```
-cd .config/rofi/launchers/type-3 && nano launcher.sh
+cd && cd .config/rofi/launchers/type-3 && nano launcher.sh
 ```
 For nano launcher.sh =
 - lines number 14, Change to (theme='style-1')
@@ -149,7 +149,7 @@ SAVE and EXIT
 
 #### Step 2, Change style-1.rasi
 ```
-cd .config/rofi/launchers/type-3 && nano style-1.rasi
+cd && cd .config/rofi/launchers/type-3 && nano style-1.rasi
 ```
 For nano style-1.rasi =
 - lines number 27 Main Window, Change to (fullscreen: true;)
