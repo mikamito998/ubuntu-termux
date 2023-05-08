@@ -21,9 +21,9 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubu
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
 
-## 3. Install box86/box64 & wine86/wine64
+## 3. Install box86_64 & Wine86_64
 ```
-wget https://raw.githubusercontent.com/xDoge26/Proot-Setup/main/Box86-64_Wine86-64.sh; chmod +x Box86-64_Wine86-64.sh; ./Box86-64_Wine86-64.sh; rm --force Box86-64_Wine86-64.sh
+wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
 ```
 
 ## 4. Install Firefox
