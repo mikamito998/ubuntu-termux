@@ -8,7 +8,7 @@ Setup Linux Proot on Android. It includes:
 - [x] Chromium Browser
 - [x] Libre Office
 - [x] MacOS Theme
-- [x] User and Simple Login
+- [x] User
 
 ## 1. Install Ubuntu
 ```
