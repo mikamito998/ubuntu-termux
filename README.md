@@ -9,7 +9,6 @@ Setup Linux Proot on Android. It includes:
 - [x] Libre Office
 - [x] MacOS Theme
 - [x] User and Simple Login
-- [x] Add-ons
 
 ## 1. Install Ubuntu
 ```
@@ -157,11 +156,6 @@ For nano style-1.rasi =
 - lines number 59 Inputbar, Change to (margin: 0% 25%;)
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
-
-## 8. Install Add-ons
-```
-sudo apt install -y gdebi parole ristretto thunar-archive-plugin xfe mousepad
-```
 
 ##### All the code here is not purely from me, but I have summarized it from various sources. There is some code that I changed and fixed to make it install easily and run flawlessly.
 ##### Source: 
