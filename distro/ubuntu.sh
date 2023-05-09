@@ -11,8 +11,3 @@ echo "proot-distro login ubuntu" >> $PREFIX/bin/root && chmod +x $PREFIX/bin/roo
 
 #Simple login for user, just type: ubuntu
 echo "proot-distro login --user ubuntu ubuntu" >> $PREFIX/bin/ubuntu && chmod +x $PREFIX/bin/ubuntu
-
-echo "Now you can login using the following command ="
-echo "Admin/Root User = root"
-echo "User = ubuntu"
-root
