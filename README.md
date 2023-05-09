@@ -164,8 +164,8 @@ For nano style-1.rasi =
 #### Step 1. In Ubuntu
 ```
 adduser yourusername
-echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 su yourusername
+echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 echo '#!/bin/bash
 export DISPLAY=:1
 export PULSE_SERVER=127.0.0.1
