@@ -160,6 +160,34 @@ For nano style-1.rasi =
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
+## 8. Install User
+#### Step 1. In Ubuntu
+```
+adduser yourusername
+echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
+su yourusername
+echo '#!/bin/bash
+export DISPLAY=:1
+export PULSE_SERVER=127.0.0.1
+xrdb $HOME/.Xresources
+taskset -c 4-7 startxfce4' > ~/.vnc/xstartup
+
+echo 'vncserver -name remote-desktop -geometry 960x540 -localhost no :1' > /usr/local/bin/vnc-start
+echo 'vncserver -kill :1' > /usr/local/bin/vnc-stop
+
+chmod +x ~/.vnc/xstartup
+chmod +x /usr/local/bin/vnc-start
+chmod +x /usr/local/bin/vnc-stop
+```
+#### Step 2. In Termux
+```
+echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername && chmod +x $PREFIX/bin/yourusername
+```
+#### Step 3. Done
+- You can login user from termux to ubuntu just by typing yourusername.
+- You can also login root from termux to ubuntu just by typing root, without type proot-distro login ubuntu again, because it's to long.
+- Note: Please change "yourusername" with name do you want
+
 ##### All the code here is not purely from me, but I have summarized it from various sources. There is some code that I changed and fixed to make it install easily and run flawlessly.
 ##### Source: 
 - https://github.com/vinceliuice
