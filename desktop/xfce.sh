@@ -2,12 +2,9 @@
 
 apt update && apt upgrade -y
 
-echo "Please create password for new user"
 adduser ubuntu
 echo "ubuntu ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/ubuntu
 echo "ubuntu ALL=(ALL:ALL) ALL" >> /etc/sudoers
-echo "Your password successfully created, your username is 'ubuntu'"
-echo "Please remember and save your password"
 
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server
 apt install -y xfce4 xfce4-terminal xfce4-goodies --no-install-recommends
