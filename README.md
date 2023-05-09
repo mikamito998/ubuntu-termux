@@ -73,6 +73,9 @@ cd .local/share/applications && cat Launchpad.desktop && cd && cd .local/share/i
 # Rofi
 cd rofi && ./setup.sh && cd && cd .config/rofi && rm config.rasi
 ```
+```
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
+```
 ### 2. Customize Windows Manager Tweak
 - (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
 - (Placement Tab) Slide to large until below M of "placement:",
