@@ -8,9 +8,6 @@ echo "ubuntu ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/ubuntu
 echo "ubuntu ALL=(ALL:ALL) ALL" >> /etc/sudoers
 echo "Your password successfully created, your username is 'ubuntu'"
 echo "Please remember and save your password"
-sudo apt install udisks2 -y
-echo " " > /var/lib/dpkg/info/udisks2.postinst
-sudo apt-mark hold udisks2
 
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server
 apt install -y xfce4 xfce4-terminal xfce4-goodies --no-install-recommends
