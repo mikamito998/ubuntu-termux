@@ -9,6 +9,7 @@ Setup Linux Proot on Android. It includes:
 - [x] Libre Office
 - [x] MacOS Theme
 - [x] User
+- [x] One Click Install
 
 ## 1. Install Ubuntu
 ```
@@ -45,7 +46,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreo
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
 ```
-### 2. Customize Windows Manager Tweak
+### 2. Customize Windows Manager Tweak (From here you need to customize MacOS Theme manually in VNC Viewer apps)
 - (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
 - (Placement Tab) Slide to large until below M of "placement:",
 - (Compositor Tab) Uncheck Show shadows under dock windows.
@@ -129,7 +130,7 @@ For nano style-1.rasi =
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
-## 8. Install User
+## 8. Add User Manually
 #### Step 1. In Ubuntu
 ```
 adduser yourusername
@@ -156,6 +157,13 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 - You can login user from termux to ubuntu just by typing yourusername.
 - You can also login root from termux to ubuntu just by typing root, without type proot-distro login ubuntu again, because it's to long.
 - Note: Please change "yourusername" with name do you want
+
+## 9. One Click Install
+- If you are lazy to copy and paste the code above one by one, you can use this code after installing Ubuntu on Termux (After Step 1.)
+```
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
+```
+- After installing one click install code, go to step 8. Add User Manually or go directly to step 7.2 customize installed MacOS theme.
 
 ##### All the code here is not purely from me, but I have summarized it from various sources. There is some code that I changed and fixed to make it install easily and run flawlessly.
 ##### Source: 
