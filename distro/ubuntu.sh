@@ -14,6 +14,8 @@ echo 'alias gl="MESA_NO_ERROR=1 MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_GLES_VER
 echo 'alias gl="MESA_NO_ERROR=1 MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_EXTENSION_OVERRIDE=GL_EXT_polygon_offset_clamp GALLIUM_DRIVER=virpipe WINEDEBUG=-all"' >> /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu/root/.bashrc
 source ~/.bashrc
 
+proot-distro login ubuntu
+
 # Instal VirGL Zink
 #pkg install x11-repo tur-repo
 #pkg install mesa-zink virglrenderer-mesa-zink
