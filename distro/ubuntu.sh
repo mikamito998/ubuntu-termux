@@ -6,9 +6,6 @@ echo 'pulseaudio --kill --start --exit-idle-time=-1 --load="module-native-protoc
 alias start="proot-distro login ubuntu --shared-tmp --no-sysvipc"' > ~/.bashrc &&
 termux-reload-settings && source ~/.bashrc
 
-#Simple login for root, just type: root
-echo "proot-distro login ubuntu" >> $PREFIX/bin/root && chmod +x $PREFIX/bin/root
-
 # Install VirGL ES
 pkg install x11-repo 
 pkg install virglrenderer-android
