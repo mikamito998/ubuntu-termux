@@ -15,7 +15,7 @@ export PULSE_SERVER=127.0.0.1
 xrdb $HOME/.Xresources
 taskset -c 4-7 startxfce4' > ~/.vnc/xstartup
 
-echo 'vncserver -name remote-desktop -geometry 960x540 -localhost no :1' > /usr/local/bin/vnc-start
+echo 'vncserver -name remote-desktop -geometry 1280x720 -localhost no :1' > /usr/local/bin/vnc-start
 echo 'vncserver -kill :1' > /usr/local/bin/vnc-stop
 
 chmod +x ~/.vnc/xstartup
