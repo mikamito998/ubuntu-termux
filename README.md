@@ -151,6 +151,8 @@ chmod +x /usr/local/bin/vnc-stop
 ```
 #### Step 2. In Termux
 ```
+echo "proot-distro login ubuntu" >> $PREFIX/bin/root && chmod +x $PREFIX/bin/root
+
 echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername && chmod +x $PREFIX/bin/yourusername
 ```
 #### Step 3. Done
