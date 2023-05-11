@@ -1,1 +1,17 @@
-sudo apt install xfce4-goodies xfe gdebi
+
+#Tiny text editor (mousepad)
+# Images viewer (ristretto)
+# CD/DVD burner (xfburn)
+# Frontend to dictionnaries (xfce4-dict)
+# Notification daemon (xfce4-notifyd)
+# Tool to take screenshots (xfce4-screenshooter)
+# Task manager (xfce4-taskmanager)
+# Terminal emulator (xfce4-terminal)
+# Cellular modem plugin (xfce4-cellmodem-plugin)
+# Indicator (conform to the Ubuntu MessagingMenu specification) plugin (xfce4-indicator-plugin)
+# Another commandline plugin (xfce4-minicmd-plugin)
+# Frontends to MPD (xfce4-mpc-plugin, xfmpc)
+# Radio plugin (xfce4-radio-plugin))
+# GIO/GVfs frontend to manage connections to remote filesystems (gigolo)
+  * Media player (parole)
+  * Power Manager (xfce4-power-manager)
