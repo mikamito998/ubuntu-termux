@@ -12,5 +12,8 @@
 # Frontends to MPD (xfce4-mpc-plugin, xfmpc)
 # Radio plugin (xfce4-radio-plugin))
 # GIO/GVfs frontend to manage connections to remote filesystems (gigolo)
-  * Media player (parole)
-  * Power Manager (xfce4-power-manager)
+# Media player (parole)
+# Power Manager (xfce4-power-manager)
+# Extract (xfe) (xarchiver)
+# Manage Storage (ncdu)
+sudo apt install xfce4-goodies
