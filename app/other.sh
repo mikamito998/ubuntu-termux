@@ -1,4 +1,4 @@
-#Tiny text editor (mousepad)
+# Tiny text editor (mousepad)
 # Images viewer (ristretto)
 # CD/DVD burner (xfburn)
 # Frontend to dictionnaries (xfce4-dict)
