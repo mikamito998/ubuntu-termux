@@ -1,4 +1,3 @@
-
 #Tiny text editor (mousepad)
 # Images viewer (ristretto)
 # CD/DVD burner (xfburn)
