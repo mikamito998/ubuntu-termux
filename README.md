@@ -80,7 +80,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 - (Items Tab) Open "Action Buttons", Change "Appearance:" to "Action Buttons". And Uncheck "Lockscreen, Switch User, Separator, Suspend, Shut Down"
 - Items Tab) Remove "Workspace Switcher, Window Buttons"
 - (Items Tab) Top to Bottom = Separator Transparent, Applications Menu, AppMenu Plugin, Separator Transparent, Separator, Status Tray Plugin, PulseAudio Plugin, Notification Plugin, Separator, Clock, Action Buttons
-- Appearance Tab) Turn off "Dark mode"
+- (Appearance Tab) Turn off "Dark mode"
 - (Appearance Tab) Fixed icon size 24
 - CLOSE
 
@@ -88,8 +88,8 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 ```
 plank --preferences
 ```
-- (Appearance Tab) Change from (Theme: Default) to (Theme: theme-Light)
-- Doclets) Add shortcut = "Desktop, Trash"
+- (Appearance Tab) Change from (Theme: Default) to (Theme: theme-Light) If there is no "theme: theme-light" you need copy paste this command ```cp -r whitesur-gtk-theme/src/other/plank/theme-* .local/share/plank/themes/.``` and check again "plank -preferences"
+- (Doclets) Add shortcut = "Desktop, Trash"
 - CLOSE
 
 ### 9. Customize Session and Startup
