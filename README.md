@@ -67,6 +67,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 - CLOSE
 
 ### 6. Customize Window Manager
+- (Style Tab) Choose T
 - (Style Tab) Font Sans Bold, size 12
 - (Style Tab) Button Layout Active, x [] - Tittle
 - (Style Tab) Button Layout Hidden, o ∆ ↑
