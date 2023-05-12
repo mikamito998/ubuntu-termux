@@ -117,7 +117,7 @@ cd && cd .config/rofi/launchers/type-3 && nano launcher.sh
 ```
 For nano launcher.sh =
 - lines number 14, Change to (theme='style-1')
-- lines number 17, Create new line above "-show drun \" and write (-icon-theme WhiteSur \)
+- lines number 17, Create new line above "-show drun \" and write (-icon-theme WhiteSur \\)
 - SAVE and EXIT
 
 #### Step 2, Change style-1.rasi
