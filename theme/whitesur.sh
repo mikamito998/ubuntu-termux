@@ -17,7 +17,7 @@ git clone https://github.com/vinceliuice/whitesur-cursors && cd whitesur-cursors
 git clone https://github.com/vinceliuice/whitesur-wallpapers && cd whitesur-wallpapers && ./install-wallpapers.sh && cd
 
 # Xpple Menu
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/plugin/xpple_menu.zip ; xpple_menu.zip && mv applications .local/share/. && mkdir -p .local/share/menu && mv xpple.menu .local/share/menu && cd
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/plugin/xpple_menu.zip ; unzip xpple_menu.zip && mv applications .local/share/. && mkdir -p .local/share/menu && mv xpple.menu .local/share/menu && cd
 
 # Plank
 cp -r whitesur-gtk-theme/src/other/plank/theme-* .local/share/plank/themes/.
