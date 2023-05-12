@@ -107,7 +107,7 @@ cd && cd .local/share/applications && nano Launchpad.desktop
 ```
 For nano Launchpad.desktop =
 - lines number 3, Change to (Icon=~/.local/share/icons/WhiteSur/launchpad.svg)
-- lines number 4, Change to (Exec=sh -c /home/ade/.config/rofi/launchers/type-3/launcher.sh)
+- lines number 4, Change to (Exec=sh -c $HOME/.config/rofi/launchers/type-3/launcher.sh)
 - SAVE and EXIT
 
 ### 11. Customize Rofi
