@@ -8,7 +8,7 @@ git clone https://github.com/adi1090x/rofi
 git clone https://github.com/vinceliuice/whitesur-gtk-theme && cd whitesur-gtk-theme && ./install.sh && cd
 
 # Icon
-git clone https://github.com/vinceliuice/whitesur-icon-theme && cd whitesur-icon-theme && ./install.sh && cd
+git clone https://github.com/vinceliuice/whitesur-icon-theme && cd whitesur-icon-theme && ./install.sh && cd && cd /usr/local && cp -r /usr/share/icons $HOME/.local/share && cd
  
 # Cursor
 git clone https://github.com/vinceliuice/whitesur-cursors && cd whitesur-cursors && ./install.sh && cd && cp -r .local/share/icons/WhiteSur-cursors /usr/share/icons && cd
