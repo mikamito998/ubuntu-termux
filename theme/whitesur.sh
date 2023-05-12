@@ -23,6 +23,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/plug
 cp -r whitesur-gtk-theme/src/other/plank/theme-* .local/share/plank/themes/.
 
 # Launchpad
+cd && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/icons/launchpad.svg && cp $HOME/launchpad.svg .local/share/icons/WhiteSur && cd
 cd .local/share/applications && cat Launchpad.desktop && cd && cd .local/share/icons/WhiteSur && cp $HOME/launchpad.svg . && cd
 
 # Rofi
