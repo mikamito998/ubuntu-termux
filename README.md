@@ -131,7 +131,12 @@ For nano style-1.rasi =
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
-## 8. Add User Manually
+## 8. Customize Firefox Theme
+- Open Firefox app and then close it again
+- Copy paste this command ```cd whitesur-gtk-theme && ./tweaks.sh -f```
+- Close
+
+## 9. Add User Manually
 #### Step 1. In Ubuntu
 ```
 adduser yourusername
@@ -161,7 +166,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 - You can also login root from termux to ubuntu just by typing root, without type proot-distro login ubuntu again, because it's to long.
 - Note: Please change "yourusername" with name do you want
 
-## 9. One Click Install
+## 10. One Click Install
 - If you are lazy to copy and paste the code above one by one, you can use this code after installing Ubuntu on Termux (After Step 1.)
 ```
 yes | apt update && apt install sudo nano wget unzip git neofetch -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
