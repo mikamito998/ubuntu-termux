@@ -36,22 +36,22 @@ wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh;
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
 ```
 
-## 4. Install Firefox
+## Step 4. Install Firefox
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
 
-## 5. Install Chromium
+## Step 5. Install Chromium
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
 
-## 6. Install Libre Office
+## Step 6. Install Libre Office
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
 
-## 7. Install MacOS Theme
+## Step 7. Install MacOS Theme
 ### 1. Download the required files
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
