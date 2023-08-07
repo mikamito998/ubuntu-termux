@@ -142,16 +142,20 @@ For nano style-1.rasi =
 adduser yourusername
 su yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
+mkdir ~/.vnc &> /dev/null
+
 echo '#!/bin/bash
 export DISPLAY=:1
 export PULSE_SERVER=127.0.0.1
 xrdb $HOME/.Xresources
 taskset -c 4-7 startxfce4' > ~/.vnc/xstartup
 
-echo 'vncserver -name remote-desktop -geometry 960x540 -localhost no :1' > /usr/local/bin/vnc-start
-echo 'vncserver -kill :1' > /usr/local/bin/vnc-stop
+echo 'taskset -c 4-7 termux-x11 :1 -xstartup startxfce4 2> /dev/null &' > /usr/local/bin/x11
+echo 'vncserver :1 -name remote-desktop -geometry 960x540 -localhost no' > /usr/local/bin/vnc-start
+echo 'vncserver -kill' > /usr/local/bin/vnc-stop
 
 chmod +x ~/.vnc/xstartup
+chmod +x /usr/local/bin/x11
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 ```
