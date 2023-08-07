@@ -28,6 +28,7 @@ vnc-start
 vnc-stop
 clear
 echo "VNC has been created..."
-echo "Please type the command 'vnc-start' to start VNC and 'vnc-stop' to turn off VNC..."
-echo "You can login using 'VNC Viewer' app from Play Store..."
-echo "Use 'localhost:1:' to login via VNC Viewer..."
+echo ""
+echo "~ Please type the command 'vnc-start' to start VNC and 'vnc-stop' to turn off VNC."
+echo "~ You can login using 'VNC Viewer' app from Play Store."
+echo "~ Use 'localhost:1:' to login via VNC Viewer."
