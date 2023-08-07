@@ -4,4 +4,5 @@ echo 'pulseaudio --verbose --start --exit-idle-time=-1 --load="module-native-pro
 alias start="proot-distro login ubuntu --shared-tmp --no-sysvipc"' >> ~/.bashrc && . ~/.bashrc && termux-reload-settings
 clear
 echo "Ubuntu has been installed..."
-echo "Please type the command 'proot-distro login ubuntu' to start..."
+echo ""
+echo "~ Please type the command 'proot-distro login ubuntu' to start."
