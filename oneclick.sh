@@ -1,7 +1,5 @@
 #One Click Install XFCE, User, Box86_64, Wine
 
-yes | apt update && apt install wget -y
-
 #XFCE
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 
