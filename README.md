@@ -139,6 +139,7 @@ For nano style-1.rasi =
 ## 9. Add User Manually
 #### Step 1. In Ubuntu
 ```
+passwd
 adduser yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 su yourusername
