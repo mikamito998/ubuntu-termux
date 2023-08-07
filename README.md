@@ -142,9 +142,8 @@ For nano style-1.rasi =
 adduser yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 su yourusername
-echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 apt update && apt upgrade -y
-apt install -y sudo nano wget tzdata dbus-x11 --no-install-recommends --no-install-suggests
+apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server --no-install-recommends --no-install-suggests
 apt clean && apt autoremove -y
 mkdir ~/.vnc &> /dev/null
 
