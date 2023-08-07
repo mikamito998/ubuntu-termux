@@ -55,6 +55,6 @@ sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/gl
 clear
 echo "Box64_wow64 & Wine is installed and ready to run..."
 echo ""
-echo "~ Type command 'box86 wine winecfg' or 'box64 wine winecfg' to configure wine."
-echo "~ Type command 'box86 wine explorer' or 'box64 wine explorer' to open Windows Explorer."
+echo "~ Type command 'box64 wine winecfg' to configure wine."
+echo "~ Type command 'box64 wine explorer' to open Windows Explorer."
 echo ""
