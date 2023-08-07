@@ -106,12 +106,12 @@ plank --preferences
 - (Application Autostart) Click add new autostart and fill (Name: Plank, Command: plank)
 - CLOSE
 
-### 10. Customize Launchpad
-#### Step 1
+### Step 7.10 Customize Launchpad
+#### Step 7.10.1
 - Open file manager and open folder ".local/share/applications"
 - Add Launchpad.desktop to plank (seek)
 
-#### Step 2, Change Launchpad.desktop
+#### Step 7.10.2, Change Launchpad.desktop
 ```
 cd && cd .local/share/applications && nano Launchpad.desktop
 ```
@@ -120,8 +120,8 @@ For nano Launchpad.desktop =
 - lines number 4, Change to (Exec=sh -c $HOME/.config/rofi/launchers/type-3/launcher.sh)
 - SAVE and EXIT
 
-### 11. Customize Rofi
-#### Step 1, Change launcher.sh
+### Step 7.11 Customize Rofi
+#### Step 7.11.1, Change launcher.sh
 ```
 cd && cd .config/rofi/launchers/type-3 && nano launcher.sh
 ```
@@ -130,7 +130,7 @@ For nano launcher.sh =
 - lines number 17, Create new line above "-show drun \" and write (-icon-theme WhiteSur \\)
 - SAVE and EXIT
 
-#### Step 2, Change style-1.rasi
+#### Step 7.11.2, Change style-1.rasi
 ```
 cd && cd .config/rofi/launchers/type-3 && nano style-1.rasi
 ```
@@ -141,7 +141,7 @@ For nano style-1.rasi =
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
-## 8. Customize Firefox Theme
+## Step 8. Customize Firefox Theme
 - Open Firefox app and then close it again
 - Copy paste this command ```cd whitesur-gtk-theme && ./tweaks.sh -f```
 - Close
