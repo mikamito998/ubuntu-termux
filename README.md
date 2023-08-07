@@ -20,6 +20,10 @@ yes | pkg update && pkg install wget -y && wget https://raw.githubusercontent.co
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
+### 2.1 Install User
+```
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
+```
 
 ## 3. Install box86_64 & Wine86_64
 ```
