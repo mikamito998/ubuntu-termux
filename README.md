@@ -148,6 +148,7 @@ adduser yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 usermod -aG sudo yourusername
 su yourusername
+exit
 vnc-start
 vnc-stop
 apt update && apt upgrade -y
