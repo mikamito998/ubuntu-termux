@@ -147,20 +147,20 @@ For nano style-1.rasi =
 - Close
 
 ## Step 9. Add User Manually
-#### Step 1. In Ubuntu
+#### Step 9.1 In Ubuntu
 ```
 passwd
 adduser yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 usermod -aG sudo yourusername
 ```
-#### Step 2. In Termux
+#### Step 9.2 In Termux
 ```
 echo "proot-distro login ubuntu" >> $PREFIX/bin/root && chmod +x $PREFIX/bin/root
 
 echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername && chmod +x $PREFIX/bin/yourusername
 ```
-#### Step 3. Done
+#### Step 9.3 Done
 - You can login user from termux to ubuntu just by typing yourusername.
 - You can also login root from termux to ubuntu just by typing root, without typing proot-distro login ubuntu again.
 - You can use "su" command and "su yourusername" command.
