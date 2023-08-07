@@ -5,4 +5,5 @@ alias start="proot-distro login ubuntu --shared-tmp --no-sysvipc"' >> ~/.bashrc 
 clear
 echo "Ubuntu has been installed..."
 echo ""
-echo "~ Please type the command 'proot-distro login ubuntu' to start."
+echo "~ Please type the command 'proot-distro login ubuntu' to start ubuntu."
+echo ""
