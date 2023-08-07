@@ -20,7 +20,7 @@ yes | pkg update && pkg install wget -y && wget https://raw.githubusercontent.co
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
-### Step 2.1 Install User
+### Step 2.1 Install User (Optional)
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
 ```
@@ -28,7 +28,7 @@ Note Step 2.1 :
 - Login root = proot-distro login ubuntu
 - Login user = proot-distro login --user user ubuntu
 
-## Step 3. Install box86_64 & Wine86_64
+## Step 3. Install box86_64 & Wine86_64 (Optional)
 ```
 wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
 ```
@@ -141,7 +141,7 @@ For nano style-1.rasi =
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
-## Step 8. Customize Firefox Theme
+## Step 8. Customize Firefox Theme (Optional)
 - Open Firefox app and then close it again
 - Copy paste this command ```cd whitesur-gtk-theme && ./tweaks.sh -f```
 - Close
