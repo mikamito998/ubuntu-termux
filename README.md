@@ -149,16 +149,10 @@ For nano style-1.rasi =
 ## 9. Add User Manually
 #### Step 1. In Ubuntu
 ```
-apt update && apt upgrade -y
 passwd
 adduser yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 usermod -aG sudo yourusername
-su yourusername
-exit
-vnc-start
-vnc-stop
-apt update && apt upgrade -y
 ```
 #### Step 2. In Termux
 ```
@@ -168,10 +162,10 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 ```
 #### Step 3. Done
 - You can login user from termux to ubuntu just by typing yourusername.
-- You can also login root from termux to ubuntu just by typing root, without type proot-distro login ubuntu again, because it's to long.
-- You can use "su" command
-- Type command "groups yourusername" To check assign sudo privileges to a user
-- Note: Please change "yourusername" with name do you want
+- You can also login root from termux to ubuntu just by typing root, without typing proot-distro login ubuntu again.
+- You can use "su" command and "su yourusername" command.
+- Type command "groups yourusername" To check assign sudo privileges to a user.
+- Note: Please change "yourusername" with name do you want.
 
 ## 10. One Click Install
 - If you are lazy to copy and paste the code above one by one, you can use this code after installing Ubuntu on Termux (After Step 1.)
