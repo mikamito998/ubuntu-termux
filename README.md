@@ -143,6 +143,8 @@ passwd
 adduser yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 su yourusername
+vnc-start
+vnc-stop
 apt update && apt upgrade -y
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server --no-install-recommends --no-install-suggests
 apt clean && apt autoremove -y
