@@ -36,17 +36,17 @@ wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh;
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
 ```
 
-## Step 4. Install Firefox
+## Step 4. Install Firefox (Optional)
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
 
-## Step 5. Install Chromium
+## Step 5. Install Chromium (Optional)
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
 
-## Step 6. Install Libre Office
+## Step 6. Install Libre Office (Optional)
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
@@ -167,7 +167,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 - Type command "groups yourusername" To check assign sudo privileges to a user.
 - Note: Please change "yourusername" with name do you want.
 
-## Step 10. One Click Install
+## Step 10. One Click Install (Optional)
 - If you are lazy to copy and paste the code above one by one, you can use this code after installing Ubuntu on Termux (After Step 1.)
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
