@@ -170,7 +170,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 ## 10. One Click Install
 - If you are lazy to copy and paste the code above one by one, you can use this code after installing Ubuntu on Termux (After Step 1.)
 ```
-yes | apt update && apt install sudo nano wget unzip git neofetch -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
+yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
 ```
 - After installing one click install code, go to step 8. Add User Manually or go directly to step 7.2 customize installed MacOS theme.
 
