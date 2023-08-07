@@ -102,7 +102,7 @@ plank --preferences
 - (Doclets) Add shortcut = "Desktop, Trash"
 - CLOSE
 
-### 9. Customize Session and Startup
+### 7.9 Customize Session and Startup
 - (Application Autostart) Click add new autostart and fill (Name: Plank, Command: plank)
 - CLOSE
 
