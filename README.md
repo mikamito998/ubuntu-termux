@@ -172,7 +172,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
 ```
-- After installing one click install code, go to step 8. Add User Manually or go directly to step 7.2 customize installed MacOS theme.
+- After installing oneclick, You can start the next step from step 7.1 onwards
 
 ##### All the code here is not purely from me, but I have summarized it from various sources. There is some code that I changed and fixed to make it install easily and run flawlessly.
 ##### Source: 
