@@ -143,6 +143,7 @@ apt update && apt upgrade -y
 passwd
 adduser yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
+usermod -aG sudo yourusername
 su yourusername
 vnc-start
 vnc-stop
