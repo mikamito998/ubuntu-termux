@@ -13,12 +13,12 @@ Setup Linux Proot on Android. It includes:
 
 ## 1. Install Ubuntu
 ```
-yes | pkg update && pkg install nano wget unzip git neofetch -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
+yes | pkg update && pkg install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
 ```
 
 ## 2. Install XFCE
 ```
-yes | apt update && apt install sudo nano wget unzip git neofetch -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
+yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
 
 ## 3. Install box86_64 & Wine86_64
