@@ -83,7 +83,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 - (Style Tab) Button Layout Hidden, o ∆ ↑
 - CLOSE
 
-### 7.7 Customize Panel Preferences
+### Step 7.7 Customize Panel Preferences
 - (Panel) Remove "Panel 2" and Select "Panel 1"
 - (Items Tab) Open Applications Menu, Change icon with Apple Logo "start-here", after that Select "Use custom menu file:" and change the menu with Xpple Menu ".local/share/menu/xpple.menu" and close.
 - (Items Tab) Add and Open AppMenu Plugin after that Check "Use bold applications name" and close
