@@ -72,7 +72,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 - (Icons Tab) Change to (Icons orientation: Top Right Vertical) and click Arrange icons
 - CLOSE
 
-### 5. Customize Mouse and Touchpad
+### Step 7.5 Customize Mouse and Touchpad
 - (Theme Tab) Select WhiteSur Cursors.
 - CLOSE
 
