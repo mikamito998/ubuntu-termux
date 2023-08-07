@@ -24,6 +24,9 @@ yes | apt update && apt install wget -y && wget https://raw.githubusercontent.co
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
 ```
+Note 2.1 :
+~ Login root = proot-distro login ubuntu
+~ Login user = proot-distro login --user user ubuntu
 
 ## 3. Install box86_64 & Wine86_64
 ```
