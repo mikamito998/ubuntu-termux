@@ -12,7 +12,7 @@ usermod -aG sudo user
 echo "The password for user has been set..."
 echo "Now you can login to user using the 'su user' command."
 su user
-clear
+exit
 vnc-start
 vnc-stop
 clear
