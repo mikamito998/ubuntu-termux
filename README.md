@@ -76,7 +76,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 - (Theme Tab) Select WhiteSur Cursors.
 - CLOSE
 
-### 6. Customize Window Manager
+### Step 7.6 Customize Window Manager
 - (Style Tab) Choose WhiteSur-Light Theme
 - (Style Tab) Font Sans Bold, size 12
 - (Style Tab) Button Layout Active, x [] - Tittle
