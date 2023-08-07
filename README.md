@@ -52,22 +52,22 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreo
 ```
 
 ## Step 7. Install MacOS Theme
-### 1. Download the required files
+### Step 7.1 Download the required files
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
 ```
-### 2. Customize Windows Manager Tweak (From here you need to customize MacOS Theme manually in VNC Viewer apps)
+### Step 7.2 Customize Windows Manager Tweak (From here you need to customize MacOS Theme manually in VNC Viewer apps)
 - (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
 - (Placement Tab) Slide to large until below M of "placement:",
 - (Compositor Tab) Uncheck Show shadows under dock windows.
 - CLOSE
 
-### 3. Customize Appearance
+### Step 7.3 Customize Appearance
 - (Style Tab) Select WhiteSur-Light,
 - (Icons Tab) Select WhiteSur.
 - CLOSE
 
-### 4. Customize Desktop Settings...
+### Step 7.4 Customize Desktop Settings...
 - (Background Tab) Select Folder "Other..." after that, Go to Home and click right on the blank, after that Check "Show Hidden Files", after that Open Folder "/.local/share/backgrounds" and then on the top panel Click "Open", and the last you can select any Wallpapers do you want.
 - (Icons Tab) Change to (Icons orientation: Top Right Vertical) and click Arrange icons
 - CLOSE
