@@ -1,5 +1,6 @@
 clear
-echo "Please create a password for root..."passwd
+echo "Please create a password for root..."
+passwd
 echo "The password for root has been set..."
 echo "Now you can login to root using the 'su' command."
 echo ""
