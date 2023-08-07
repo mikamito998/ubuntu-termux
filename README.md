@@ -94,7 +94,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 - (Appearance Tab) Fixed icon size 24
 - CLOSE
 
-### 7.8 Customize Plank
+### Step 7.8 Customize Plank
 ```
 plank --preferences
 ```
