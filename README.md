@@ -140,8 +140,12 @@ For nano style-1.rasi =
 #### Step 1. In Ubuntu
 ```
 adduser yourusername
+echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
 su yourusername
 echo "yourusername ALL=(ALL:ALL) ALL" >> /etc/sudoers
+apt update && apt upgrade -y
+apt install -y sudo nano wget tzdata dbus-x11 --no-install-recommends --no-install-suggests
+apt clean && apt autoremove -y
 mkdir ~/.vnc &> /dev/null
 
 echo '#!/bin/bash
