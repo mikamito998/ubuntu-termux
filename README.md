@@ -157,6 +157,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 #### Step 3. Done
 - You can login user from termux to ubuntu just by typing yourusername.
 - You can also login root from termux to ubuntu just by typing root, without type proot-distro login ubuntu again, because it's to long.
+- You can use "su" command
 - Note: Please change "yourusername" with name do you want
 
 ## 10. One Click Install
