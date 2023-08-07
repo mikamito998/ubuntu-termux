@@ -167,7 +167,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername
 - Type command "groups yourusername" To check assign sudo privileges to a user.
 - Note: Please change "yourusername" with name do you want.
 
-## 10. One Click Install
+## Step 10. One Click Install
 - If you are lazy to copy and paste the code above one by one, you can use this code after installing Ubuntu on Termux (After Step 1.)
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
