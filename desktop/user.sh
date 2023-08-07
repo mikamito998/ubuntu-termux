@@ -11,4 +11,3 @@ echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers
 usermod -aG sudo user
 echo "The password for user has been set..."
 echo "Now you can login to user using the 'su user' command."
-groups user
