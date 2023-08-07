@@ -1,2 +1,15 @@
-#One Click Install XFCE, Box86_64, Wine86_64, Firefox, Chromium, LibreOffice, WhiteSur Theme.
-yes | apt update && apt install sudo nano wget unzip git neofetch -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh && wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
+#One Click Install XFCE, User, Box86_64, Wine
+
+yes | apt update && apt install wget -y
+
+#XFCE
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
+
+#User
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
+
+#Box86_64 & Wine
+wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
+
+#Box64_wow64 & Wine
+#wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
