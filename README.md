@@ -11,24 +11,24 @@ Setup Linux Proot on Android. It includes:
 - [x] User
 - [x] One Click Install
 
-## 1. Install Ubuntu
+## Step 1. Install Ubuntu
 ```
 yes | pkg update && pkg install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
 ```
 
-## 2. Install XFCE
+## Step 2. Install XFCE
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
-### 2.1 Install User
+### Step 2.1 Install User
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
 ```
-Note 2.1 :
+Note Step 2.1 :
 - Login root = proot-distro login ubuntu
 - Login user = proot-distro login --user user ubuntu
 
-## 3. Install box86_64 & Wine86_64
+## Step 3. Install box86_64 & Wine86_64
 ```
 wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
 ```
