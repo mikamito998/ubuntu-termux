@@ -51,7 +51,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromi
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
 
-## Step 7. Install MacOS Theme
+## Step 7. Install MacOS Theme (Optional)
 ### Step 7.1 Download the required files
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
@@ -146,7 +146,7 @@ For nano style-1.rasi =
 - Copy paste this command ```cd whitesur-gtk-theme && ./tweaks.sh -f```
 - Close
 
-## Step 9. Add User Manually
+## Step 9. Add User Manually (Optional)
 #### Step 9.1 In Ubuntu
 ```
 passwd
