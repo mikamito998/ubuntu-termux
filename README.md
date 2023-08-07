@@ -146,7 +146,7 @@ For nano style-1.rasi =
 - Copy paste this command ```cd whitesur-gtk-theme && ./tweaks.sh -f```
 - Close
 
-## 9. Add User Manually
+## Step 9. Add User Manually
 #### Step 1. In Ubuntu
 ```
 passwd
