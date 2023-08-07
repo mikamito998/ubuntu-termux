@@ -25,6 +25,9 @@ yes | apt update && apt install sudo nano wget unzip git neofetch -y && wget htt
 ```
 wget https://raw.githubusercontent.com/mikamito998/Proot-Setup/main/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
 ```
+```
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
+```
 
 ## 4. Install Firefox
 ```
