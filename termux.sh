@@ -16,5 +16,5 @@ source ~/.bashrc
 # source ~/.bashrc
 
 # Login
-echo "proot-distro login ubuntu" >> $PREFIX/bin/ubuntu root && chmod +x $PREFIX/bin/
+echo "proot-distro login ubuntu" >> $PREFIX/bin/ubuntu-root && chmod +x $PREFIX/bin/ubuntu-root
 echo "proot-distro login --user ubuntu ubuntu" >> $PREFIX/bin/user && chmod +x $PREFIX/bin/user
