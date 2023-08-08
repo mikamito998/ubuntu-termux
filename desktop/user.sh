@@ -22,11 +22,3 @@ echo "The password for VNC Root has ben set..."
 echo ""
 echo "====================================="
 echo ""
-su user
-exit
-echo "Pleass create a password for VNC User..."
-vnc-start
-vnc-stop
-echo "The password for VNC User has been set..."
-echo ""
-echo "====================================="
