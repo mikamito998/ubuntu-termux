@@ -62,6 +62,6 @@ exec taskset -c 4-7 box86 wine "$@"
 
 sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/virgl
 
-clear
+echo ""
 echo "Box86_64 & Wine is installed and ready to run..."
 echo ""
