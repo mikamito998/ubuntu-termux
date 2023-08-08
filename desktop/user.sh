@@ -8,7 +8,7 @@ echo ""
 echo "====================================="
 echo ""
 echo "Please create a password for User..."
-adduser user
+adduser ubuntu
 echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers
 usermod -aG sudo user
 echo "The password for User has been set..."
