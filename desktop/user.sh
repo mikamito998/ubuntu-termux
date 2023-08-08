@@ -1,3 +1,4 @@
+echo ""
 echo "Please create a password for root..."
 passwd
 echo "The password for root has been set..."
