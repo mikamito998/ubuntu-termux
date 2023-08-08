@@ -1,3 +1,4 @@
+clear
 echo "====================================="
 echo ""
 echo "Please create a password for Root..."
