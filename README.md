@@ -58,34 +58,34 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreo
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
 ```
-### Step 7.2 Customize Windows Manager Tweak (From here you need to customize MacOS Theme manually in VNC Viewer apps)
+### 7.2 Customize Windows Manager Tweak (From here you need to customize MacOS Theme manually in VNC Viewer apps)
 - (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
 - (Placement Tab) Slide to large until below M of "placement:",
 - (Compositor Tab) Uncheck Show shadows under dock windows.
 - CLOSE
 
-### Step 7.3 Customize Appearance
+### 7.3 Customize Appearance
 - (Style Tab) Select WhiteSur-Light,
 - (Icons Tab) Select WhiteSur.
 - CLOSE
 
-### Step 7.4 Customize Desktop Settings...
+### 7.4 Customize Desktop Settings...
 - (Background Tab) Select Folder "Other..." after that, Go to Home and click right on the blank, after that Check "Show Hidden Files", after that Open Folder "/.local/share/backgrounds" and then on the top panel Click "Open", and the last you can select any Wallpapers do you want.
 - (Icons Tab) Change to (Icons orientation: Top Right Vertical) and click Arrange icons
 - CLOSE
 
-### Step 7.5 Customize Mouse and Touchpad
+### 7.5 Customize Mouse and Touchpad
 - (Theme Tab) Select WhiteSur Cursors.
 - CLOSE
 
-### Step 7.6 Customize Window Manager
+### 7.6 Customize Window Manager
 - (Style Tab) Choose WhiteSur-Light Theme
 - (Style Tab) Font Sans Bold, size 12
 - (Style Tab) Button Layout Active, x [] - Tittle
 - (Style Tab) Button Layout Hidden, o ∆ ↑
 - CLOSE
 
-### Step 7.7 Customize Panel Preferences
+### 7.7 Customize Panel Preferences
 - (Panel) Remove "Panel 2" and Select "Panel 1"
 - (Items Tab) Open Applications Menu, Change icon with Apple Logo "start-here", after that Select "Use custom menu file:" and change the menu with Xpple Menu ".local/share/menu/xpple.menu" and close.
 - (Items Tab) Add and Open AppMenu Plugin after that Check "Use bold applications name" and close
@@ -96,7 +96,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 - (Appearance Tab) Fixed icon size 24
 - CLOSE
 
-### Step 7.8 Customize Plank
+### 7.8 Customize Plank
 ```
 plank --preferences
 ```
@@ -104,11 +104,11 @@ plank --preferences
 - (Doclets) Add shortcut = "Desktop, Trash"
 - CLOSE
 
-### Step 7.9 Customize Session and Startup
+### 7.9 Customize Session and Startup
 - (Application Autostart) Click add new autostart and fill (Name: Plank, Command: plank)
 - CLOSE
 
-### Step 7.10 Customize Launchpad
+### 7.10 Customize Launchpad
 #### Step 7.10.1
 - Open file manager and open folder ".local/share/applications"
 - Add Launchpad.desktop to plank (seek)
