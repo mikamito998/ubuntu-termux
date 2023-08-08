@@ -60,7 +60,7 @@ DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 TU_DEBUG=noconform MESA_VK_WSI_DEBUG=
 exec taskset -c 4-7 box86 wine "$@"
 ' > /usr/local/bin/vulkan
 
-sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/gl
+sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/virgl
 
 clear
 echo "Box86_64 & Wine is installed and ready to run..."
