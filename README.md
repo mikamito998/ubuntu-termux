@@ -11,16 +11,16 @@ Setup Linux Proot on Android. It includes:
 - [x] User & SU Login
 - [x] Easy Install
 
-## 1. Install Ubuntu
+## 1. Ubuntu
 ```
 yes | pkg update && pkg install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
 ```
 
-## 2. Install XFCE
+## 2. XFCE
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
-### 2.1 Install User
+### 2.1 User & SU
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
 ```
@@ -38,12 +38,12 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
 ```
 
-## 4. Install Firefox
+## 4. Firefox
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
 
-## 5. Install Chromium
+## 5. Chromium
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
