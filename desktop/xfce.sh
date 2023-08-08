@@ -15,7 +15,7 @@ xrdb $HOME/.Xresources
 taskset -c 4-7 startxfce4' > ~/.vnc/xstartup
 
 echo 'taskset -c 4-7 termux-x11 :1 -xstartup startxfce4 2> /dev/null &' > /usr/local/bin/x11
-echo 'vncserver :1 -name remote-desktop -geometry 960x540 -localhost no' > /usr/local/bin/vnc-start
+echo 'vncserver :1 -name remote-desktop -geometry 1366x768 -localhost no' > /usr/local/bin/vnc-start
 echo 'vncserver -kill' > /usr/local/bin/vnc-stop
 
 chmod +x ~/.vnc/xstartup
