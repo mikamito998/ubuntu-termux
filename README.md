@@ -38,17 +38,17 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
 ```
 
-## Step 4. Install Firefox (Optional)
+## 4. Install Firefox
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
 
-## Step 5. Install Chromium (Optional)
+## 5. Install Chromium
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
 
-## Step 6. Install Libre Office (Optional)
+## 6. Install Libre Office
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
