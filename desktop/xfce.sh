@@ -22,10 +22,3 @@ chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/x11
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
-clear
-echo "Please create a password for VNC..."
-vnc-start
-vnc-stop
-clear
-echo "VNC has been created..."
-echo ""
