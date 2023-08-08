@@ -11,27 +11,29 @@ Setup Linux Proot on Android. It includes:
 - [x] User & SU Login
 - [x] Easy Install
 
-## Step 1. Install Ubuntu
+## 1. Install Ubuntu
 ```
 yes | pkg update && pkg install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
 ```
 
-## Step 2. Install XFCE
+## 2. Install XFCE
 ```
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
-### Step 2.1 Install User (Optional)
+### 2.1 Install User
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
 ```
-Note Step 2.1 :
+#### Note 2.1 :
 - Login root = proot-distro login ubuntu
 - Login user = proot-distro login --user user ubuntu
 
-## Step 3. Install box86_64 & Wine86_64 (Optional)
+## 3. Install box86, box64, wine86, wine64
+#### Box86, Box64, and Wine 8.0.2 Stable
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
 ```
+#### Box64 and Wine 8.13 Development
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
 ```
