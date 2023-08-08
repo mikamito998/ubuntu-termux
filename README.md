@@ -1,15 +1,15 @@
 # Ubuntu on Termux
 Setup Linux Proot on Android. It includes:
 - [x] Latest Stable Ubuntu
-- [x] XFCE4 Desktop
-- [x] VNC
+- [x] Lightweight XFCE4 Desktop
+- [x] VNC HD
 - [x] Audio Support
 - [x] Firefox Browser
 - [x] Chromium Browser
 - [x] Libre Office
 - [x] MacOS Theme
-- [x] User
-- [x] One Click Install
+- [x] User & SU Login
+- [x] Easy Install
 
 ## Step 1. Install Ubuntu
 ```
