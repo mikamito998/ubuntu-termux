@@ -158,7 +158,7 @@ usermod -aG sudo yourusername
 ```
 echo "proot-distro login ubuntu" >> $PREFIX/bin/root && chmod +x $PREFIX/bin/root
 
-echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/yourusername && chmod +x $PREFIX/bin/yourusername
+echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmod +x $PREFIX/bin/user
 ```
 #### Step 9.3 Done
 - You can login user from termux to ubuntu just by typing yourusername.
