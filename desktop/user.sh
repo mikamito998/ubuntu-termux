@@ -23,7 +23,7 @@ echo ""
 echo "====================================="
 echo ""
 su user
-continue
+exit
 echo "Pleass create a password for VNC User..."
 vnc-start
 vnc-stop
