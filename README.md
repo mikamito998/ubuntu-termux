@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/us
 - Login root = proot-distro login ubuntu
 - Login user = proot-distro login --user user ubuntu
 
-## 3. Install box86, box64, wine86, wine64
+## 3. Box86, Box64, and Wine
 #### Box86, Box64, and Wine 8.0.2 Stable
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
