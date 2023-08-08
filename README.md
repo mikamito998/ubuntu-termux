@@ -167,12 +167,16 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 - Type command "groups yourusername" To check assign sudo privileges to a user.
 - Note: Please change "yourusername" with name do you want.
 
-## Step 10. One Click Install (Optional)
-- If you are lazy to copy and paste the code above one by one, you can use this code after installing Ubuntu on Termux (After Step 1.)
+## Step 10. Instant Install (Optional)
+#### Step 10.1
 ```
-yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/oneclick.sh; chmod +x oneclick.sh; ./oneclick.sh; rm --force oneclick.sh
+yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/termux.sh; chmod +x termux.sh; ./termux.sh; rm --force termux.sh
 ```
-- After installing oneclick, You can start the next step from step 7.1 onwards
+#### Step 10.2
+```
+yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
+```
+- After install code from step 10.1 and step 10.2, You can start the next step from step 7.1 onwards
 
 ##### All the code here is not purely from me, but I have summarized it from various sources. There is some code that I changed and fixed to make it install easily and run flawlessly.
 ##### Source: 
