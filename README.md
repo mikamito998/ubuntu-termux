@@ -172,11 +172,11 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 ## Step 10. Instant Install (Optional)
 #### Step 10.1
 ```
-yes | pkg update && apt install wget -y && pkg upgrade -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/termux.sh; chmod +x termux.sh; ./termux.sh; rm --force termux.sh
+yes | pkg update && pkg install wget -y && pkg upgrade -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/termux.sh; chmod +x termux.sh; ./termux.sh; rm --force termux.sh
 ```
 #### Step 10.2
 ```
-yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
+yes | apt update && apt install wget -y && pkg upgrade -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
 ```
 - After install code from step 10.1 and step 10.2, You can start the next step from step 7.1 onwards
 
