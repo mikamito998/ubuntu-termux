@@ -170,7 +170,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 ## Step 10. Instant Install (Optional)
 #### Step 10.1
 ```
-yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/termux.sh; chmod +x termux.sh; ./termux.sh; rm --force termux.sh
+yes | pkg update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/termux.sh; chmod +x termux.sh; ./termux.sh; rm --force termux.sh
 ```
 #### Step 10.2
 ```
