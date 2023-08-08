@@ -178,6 +178,9 @@ yes | pkg update && pkg install wget -y && pkg upgrade -y && wget https://raw.gi
 ```
 yes | apt update && apt install wget -y && pkg upgrade -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
 ```
+- After instalation is done, you can login to proot-distro ubuntu by this command :
+-- Root = ubuntu-root
+-- User = ubuntu
 - After install code from step 10.1 and step 10.2, You can start the next step from step 7.1 onwards
 
 ##### All the code here is not purely from me, but I have summarized it from various sources. There is some code that I changed and fixed to make it install easily and run flawlessly.
