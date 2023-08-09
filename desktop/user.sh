@@ -22,11 +22,3 @@ echo "The password for VNC Root has ben set..."
 echo ""
 echo "====================================="
 echo ""
-su esocah
-echo "Please create a password for VNC User..."
-vnc-start
-vnc-stop
-echo "The password for VNC User has ben set..."
-echo ""
-echo "====================================="
-echo ""
