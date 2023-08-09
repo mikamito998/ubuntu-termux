@@ -179,7 +179,7 @@ yes | pkg update && pkg install wget -y && pkg upgrade -y && wget https://raw.gi
 yes | apt update && apt install wget -y && apt upgrade -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
 ```
 - After instalation is done, you can login to proot-distro ubuntu by this command :
-- Root = ubuntu-root
+- Root = root
 - User = ubuntu
 - After step 10. is done, you can continue install and costumize macOS Theme from step 7.1
 
