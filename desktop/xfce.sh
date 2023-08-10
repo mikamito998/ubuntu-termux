@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -
 
 apt update && apt upgrade -y
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra
