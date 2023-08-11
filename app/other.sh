@@ -16,4 +16,11 @@
 # Power Manager (xfce4-power-manager)
 # Extract (xfe) (xarchiver)
 # Manage Storage (ncdu)
-sudo apt install xfce4-goodies
+# XFCE Goodies (xfce4-goodies)
+# Gdebi Installer (gdebi)
+# Gnome Edit (gedit)
+# Inkscape (inkscape)
+# Krita Editing and painting software (krita)
+# OBS Studio (obs-studio)
+# Thunderbird (thunderbird)
+# VIM Editor (vim)
