@@ -20,7 +20,6 @@ export BOX86_LD_LIBRARY_PATH=~/wine/lib/
 export BOX86_LOG=1" >> ~/.bashrc
 
 #PlayOnLinux x64=
-
 wget https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-amd64/PlayOnLinux-wine-6.0-rc6-upstream-linux-amd64.tar.gz
 tar -xvf PlayOnLinux-wine-6.0-rc6-upstream-linux-amd64.tar.gz -C ~/wine/
 echo "export BOX64_PATH=~/wine/bin/
