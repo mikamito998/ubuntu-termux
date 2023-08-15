@@ -38,7 +38,7 @@ yes | pkg update && pkg install wget -y && wget https://raw.githubusercontent.co
 yes | apt update && apt install wget -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
 ```
 
-### 3. Add user, Add password for Root and User. (Manual)
+### 3. Add User, Add password for Root and User on Ubuntu (Manual)
 #### Step 1. Inside Ubuntu
 ```
 passwd
