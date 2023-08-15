@@ -20,7 +20,7 @@ sudo apt install -y libgl1:arm64 libasound2:arm64 libc6:arm64 libglib2.0-0:arm64
 sudo apt clean
 sudo apt autoremove -y
 
-#Install box86 box64 Old Version
+#Install box86 box64 Old Version (Recommended)
 wget --quiet --show-progress --continue ${BOX86_DEB} ${BOX64_DEB}
 sudo apt install -y ./box*.deb
 rm --force ./box*.deb
