@@ -1,5 +1,5 @@
-# Ubuntu on Termux
-Setup Linux Proot on Android. It includes:
+## Ubuntu on Termux
+It includes:
 - [x] Latest Stable Ubuntu
 - [x] Lightweight XFCE4 Desktop
 - [x] VNC HD
