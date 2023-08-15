@@ -23,7 +23,7 @@ yes | apt update && apt install wget -y && apt upgrade -y && wget https://raw.gi
 ```
 ### Note:
 - It contains: Install Ubuntu, Install Desktop XFCE4, Install VNC, Install Box86, Install Box64, Install Wine, Add User, Add password for Root and User, Install VirGL ES.
-- After the installation is done, you can login proot-distro ubuntu from termux with this command:
+- After the installation is done, you can login to proot-distro ubuntu from termux with this command:
 - Root = root
 - User = user
 - Done
