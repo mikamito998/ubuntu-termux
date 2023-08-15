@@ -54,9 +54,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 ```
 #### Note:
 - Please replace "yourusername" with the name you want.
-- After the above step is done, you can login proot-distro ubuntu from termux with this command:
-- Root = root
-- User = user
+- After the installation is done, you can login to proot-distro ubuntu from termux with this command: Login to Root = root and Login to User = user
 
 ### 4. Install Box86, Box64, and Wine on Ubuntu
 - There are two versions of wine. Wine Stable and Wine Development. Please Choose only one:
