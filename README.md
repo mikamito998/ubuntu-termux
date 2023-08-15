@@ -22,10 +22,12 @@ yes | pkg update && pkg install wget -y && pkg upgrade -y && wget https://raw.gi
 yes | apt update && apt install wget -y && apt upgrade -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
 ```
 ### Note:
-- It contains: Install Latest Proot Ubuntu, Install Box86, Install Box64, Install Wine, and Add password for Root and User, Install VirGL ES.
+- It contains: Install Ubuntu, Install Desktop XFCE4, Install VNC, Install Box86, Install Box64, Install Wine, Add User, Add password for Root and User, Install VirGL ES.
 - After the installation is done, you can login proot-distro ubuntu from termux with this command:
 - Root = root
 - User = user
+- Done
+- If you want to install and configure manually, you can use the steps below.
 
 ## Manual installation
 ### 1. Install Ubuntu on Termux
