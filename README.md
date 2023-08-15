@@ -178,7 +178,7 @@ yes | pkg update && pkg install wget -y && pkg upgrade -y && wget https://raw.gi
 ```
 yes | apt update && apt install wget -y && apt upgrade -y && wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
 ```
-- This is containt: Install Latest Proot Ubuntu, Box86, Box64, Wine, and password for root and user, VirGL ES
+- It contains: Install Latest Proot Ubuntu, Box86, Box64, Wine, and password for root and user, VirGL ES
 - After instalation is done, you can login to proot-distro ubuntu by this command :
 - Root = root
 - User = ubuntu
