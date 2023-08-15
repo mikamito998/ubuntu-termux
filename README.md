@@ -58,7 +58,7 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 - Root = root
 - User = user
 
-### 4. Install Box86, Box64, and Wine
+### 4. Install Box86, Box64, and Wine on Ubuntu
 - There are two versions of wine. Wine Stable and Wine Development. Please Choose only one:
 #### 1. Wine 8.0.2 Stable (Box86 and Box64)
 ```
@@ -69,22 +69,22 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
 ```
 
-### 5. Install Firefox
+### 5. Install Firefox on Ubuntu
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
 
-### 6. Install Chromium
+### 6. Install Chromium on Ubuntu
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
 
-### 7. Install Libre Office
+### 7. Install Libre Office on Ubuntu
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
 
-### 8. Install MacOS Theme (Configure Manually)
+### 8. Install MacOS Theme on Ubuntu (Configure Manually)
 #### 1. Download the required files
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
@@ -185,4 +185,3 @@ cd && cd .config/rofi/launchers/type-3 && nano style-1.rasi
 - https://github.com/adi1090x
 - https://github.com/xDoge26
 - Others
-
