@@ -58,11 +58,11 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 
 ### 4. Install Box86, Box64, and Wine on Ubuntu
 - There are two versions of wine. Wine Stable and Wine Development. Please Choose only one:
-#### 1. Wine 8.0.2 Stable (Box86 and Box64)
+#### 1. Wine 8.0.2 Stable
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
 ```
-#### 2. Wine 8.13 Development (Box64 Only)
+#### 2. Wine 8.13 Development
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
 ```
