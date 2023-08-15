@@ -20,12 +20,12 @@ sudo apt install -y libgl1:arm64 libasound2:arm64 libc6:arm64 libglib2.0-0:arm64
 sudo apt clean
 sudo apt autoremove -y
 
-#Install box86 box64 Old
+#Install box86 box64 Old Version
 wget --quiet --show-progress --continue ${BOX86_DEB} ${BOX64_DEB}
 sudo apt install -y ./box*.deb
 rm --force ./box*.deb
 
-# Latest Box
+#Install box86 box64 Lates Version
 #wget https://ryanfortner.github.io/box86-debs/box86.list -O /etc/apt/sources.list.d/box86.list && wget -qO- https://ryanfortner.github.io/box86-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box86-debs-archive-keyring.gpg 
 #wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list && wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box64-debs-archive-keyring.gpg 
 #sudo apt update 
