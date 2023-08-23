@@ -4,8 +4,8 @@
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
 
 # VirGL ES
-pkg install x11-repo 
-pkg install virglrenderer-android
+pkg install x11-repo -y
+pkg install virglrenderer-android -y
 echo 'alias gl="MESA_NO_ERROR=1 MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_GLES_VERSION_OVERRIDE=3.2 virgl_test_server_android &"' >> ~/.bashrc
 source ~/.bashrc
 
