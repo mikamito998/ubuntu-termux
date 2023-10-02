@@ -3,7 +3,7 @@ set -e
 
 BOX86_DEB=https://github.com/xDoge26/Proot-Setup/raw/main/Packages/box86-android_0.3.0-1_armhf.deb
 BOX64_DEB=https://github.com/xDoge26/Proot-Setup/raw/main/Packages/box64-android_0.2.2-1_arm64.deb
-WINE_AMD64=https://github.com/Kron4ek/Wine-Builds/releases/download/8.0.2/wine-8.0.2-amd64.tar.xz
+WINE_AMD64=https://github.com/Kron4ek/Wine-Builds/releases/download/8.17/wine-8.17-staging-tkg-amd64.tar.xz
 WINE_DIR=~/wine
 
 # Install related kits
@@ -20,12 +20,12 @@ sudo apt install -y libgl1:arm64 libasound2:arm64 libc6:arm64 libglib2.0-0:arm64
 sudo apt clean
 sudo apt autoremove -y
 
-#Install box86 box64 Old Version (Recommended)
+Install box86 box64
 wget --quiet --show-progress --continue ${BOX86_DEB} ${BOX64_DEB}
 sudo apt install -y ./box*.deb
 rm --force ./box*.deb
 
-#Install box86 box64 Latest Version
+# Install box86 box64 latest version
 #wget https://ryanfortner.github.io/box86-debs/box86.list -O /etc/apt/sources.list.d/box86.list && wget -qO- https://ryanfortner.github.io/box86-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box86-debs-archive-keyring.gpg 
 #wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list && wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box64-debs-archive-keyring.gpg 
 #sudo apt update 
