@@ -5,7 +5,6 @@ WINE_DIR=~/wine-wow64
 WINE_WOW64=https://github.com/Pi-Apps-Coders/files/releases/download/large-files/wine-8.17.tar.gz
 
 # Install related kits
-
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y xz-utils software-properties-common
