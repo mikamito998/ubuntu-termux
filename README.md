@@ -63,9 +63,9 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
 ```
-#### 2. Wine 8.13 Development
+#### 2. Wine 8.17 Development
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm --force box64_wow64.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.sh; chmod +x box64.sh; ./box64.sh; rm --force box64.sh
 ```
 
 ### 5. Install Firefox on Ubuntu
