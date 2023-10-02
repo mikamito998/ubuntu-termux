@@ -70,7 +70,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.
 
 ### 5. Install VirGL ES on Termux
 ```
-wget https://github.com/mikamito998/ubuntu-termux/blob/main/app/VirGL.sh; chmod +x VirGL.sh; ./VirGL.sh; rm --force VirGL.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.sh; chmod +x virgl.sh; ./virgl.sh; rm --force virgl.sh
 ```
 
 ### 6. Other Apps
