@@ -73,10 +73,27 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
 
-### 6. Install Chromium on Ubuntu
+### 6. Other Apps
+<details>
+<summary><code><b>Firefox</b></code></summary>
+```
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
+```
+</details>
+
+<details>
+<summary><code><b>Chromium</b></code></summary>
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
+</details>
+
+<details>
+<summary><code><b>LibreOffice</b></code></summary>
+```
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
+```
+</details>
 
 ### 7. Install Libre Office on Ubuntu
 ```
