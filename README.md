@@ -98,6 +98,86 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreo
 ```
 </details>
 
+<details>
+<summary><code><b>Blender</b></code></summary>
+
+```
+apt install blender
+```
+</details>
+
+<details>
+<summary><code><b>Gdebi Installer</b></code></summary>
+
+```
+apt install gdebi
+```
+</details>
+
+<details>
+<summary><code><b>Gedit</b></code></summary>
+
+```
+apt install gedit
+```
+</details>
+
+<details>
+<summary><code><b>Gimp</b></code></summary>
+
+```
+apt install gimp
+```
+</details>
+
+<details>
+<summary><code><b>Krita</b></code></summary>
+
+```
+apt install krita
+```
+</details>
+
+<details>
+<summary><code><b>Inkscape</b></code></summary>
+
+```
+apt install inkscape
+```
+</details>
+
+<details>
+<summary><code><b>OBS Studio</b></code></summary>
+
+```
+apt install obs-studio
+```
+</details>
+
+<details>
+<summary><code><b>Thunderbird</b></code></summary>
+
+```
+apt install thunderbird
+```
+</details>
+
+<details>
+<summary><code><b>VIM Editor</b></code></summary>
+
+```
+apt install vim
+```
+</details>
+
+<details>
+<summary><code><b>VS Code</b></code></summary>
+
+```
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/vscodefix.sh ; chmod +x vscodefix.sh ; ./vscodefix.sh
+```
+</details>
+
 ### 7. Customize Theme
 - You can customize your own theme, or you can use MacOS Theme below.
 
