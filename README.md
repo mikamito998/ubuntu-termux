@@ -174,7 +174,7 @@ apt install vim
 <summary><code><b>VS Code</b></code></summary>
 
 ```
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/vscodefix.sh ; chmod +x vscodefix.sh ; ./vscodefix.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/vscode.sh; chmod +x vscode.sh; ./vscode.sh; rm --force vscode.sh
 ```
 </details>
 
