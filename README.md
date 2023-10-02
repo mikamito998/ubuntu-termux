@@ -98,10 +98,8 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreo
 ```
 </details>
 
-### 7. Install Libre Office on Ubuntu
-```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
-```
+### 7. Customize Theme
+- You can customize your own theme, or you can use MacOS Theme below.
 
 ### 8. Install MacOS Theme on Ubuntu (Configure Manually)
 #### 1. Download the required files
