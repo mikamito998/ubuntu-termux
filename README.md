@@ -76,6 +76,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefo
 ### 6. Other Apps
 <details>
 <summary><code><b>Firefox</b></code></summary>
+  
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
 ```
@@ -83,6 +84,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefo
 
 <details>
 <summary><code><b>Chromium</b></code></summary>
+  
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
 ```
@@ -90,6 +92,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromi
 
 <details>
 <summary><code><b>LibreOffice</b></code></summary>
+  
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
