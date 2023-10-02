@@ -68,9 +68,9 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.sh; chmod +x box64.sh; ./box64.sh; rm --force box64.sh
 ```
 
-### 5. Install Firefox on Ubuntu
+### 5. Install VirGL ES on Termux
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
+
 ```
 
 ### 6. Other Apps
