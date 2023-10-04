@@ -22,3 +22,4 @@ chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/x11
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
+clear
