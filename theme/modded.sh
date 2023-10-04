@@ -72,4 +72,3 @@ dbus-launch xfconf-query -c xfwm4 -p /general/show_dock_shadow -s false
 sleep 2
 dbus-launch xfconf-query -c xfce4-desktop -p $(dbus-launch xfconf-query -c xfce4-desktop -l | grep last-image) -s /usr/share/backgrounds/warty-final-ubuntu.png
 sleep 2
-rm modded.sh
