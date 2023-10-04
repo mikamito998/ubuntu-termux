@@ -7,7 +7,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xf
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm box86_64.sh
 
 #Box86_64 & Wine Development
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.sh; chmod +x box64.sh; ./box64.sh; rm box64.sh
+#wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.sh; chmod +x box64.sh; ./box64.sh; rm box64.sh
 
 #Box64_wow64 & Wine
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm box64_wow64.sh
