@@ -277,4 +277,5 @@ cd && cd .config/rofi/launchers/type-3 && nano style-1.rasi
 - https://github.com/vinceliuice
 - https://github.com/adi1090x
 - https://github.com/xDoge26
+- https://github.com/wahasa
 - Others
