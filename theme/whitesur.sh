@@ -1,6 +1,6 @@
 # Requirement
 sudo apt install -y git gtk2-engines-murrine
-sudo apt install -y xfce4-appmenu-plugin
+sudo apt install -y xfce4-panel-profiles xfce4-appmenu-plugin
 sudo apt install -y plank rofi
 git clone https://github.com/adi1090x/rofi
 
