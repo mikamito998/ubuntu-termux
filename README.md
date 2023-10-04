@@ -1,7 +1,7 @@
 ## Ubuntu on Termux
 It includes:
 - [x] Latest Stable Ubuntu
-- [x] Lightweight XFCE4 Desktop
+- [x] Lightweight XFCE Desktop
 - [x] VNC HD
 - [x] Audio Support
 - [x] Firefox Browser
@@ -22,10 +22,7 @@ yes | pkg update; pkg upgrade -y; pkg install wget -y; wget https://raw.githubus
 apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
 ```
 ### Note:
-- It contains: Install Ubuntu, Install Desktop XFCE4, Install VNC, Install Box86, Install Box64, Install Wine, Add User, Add password for Root and User, Install VirGL ES.
-- Username = ubuntu
-- After the installation is done, you can login to proot-distro ubuntu from termux with this command: Login to Root = root and Login to User = user
-- Done
+- It contains: Install Latest Ubuntu, Install Lightweight Desktop XFCE, Install VNC HD, Install Box86, Install Box64, Install Wine, Install VirGL ES.
 - If you want to install and configure manually, you can use the steps below.
 
 ## Manual installation
