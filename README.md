@@ -94,7 +94,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromi
 <summary><code><b>LibreOffice</b></code></summary>
   
 ```
-yes | apt update; yes | apt upgrade; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
 ```
 </details>
 
