@@ -1,4 +1,5 @@
 #/bin/bash
+apt install -y gtk2-engines-murrine
 apt install git gedit plank rofi -y
 apt install xfce4-panel-profiles xfce4-appmenu-plugin -y
 apt install yaru-theme-gtk yaru-theme-icon ubuntu-wallpapers -y
