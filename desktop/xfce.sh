@@ -6,7 +6,7 @@ apt-get install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 apt install -y sudo nano wget zip unzip git xterm software-properties-common tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra
-apt install -y xfce4 xfce4 xfce4-goodies nautilus parole ristretto xarchiver gdebi gedit xfce4-taskmanager xfce4-screenshooter xfmpc gnome-terminal --no-install-recommends --no-install-suggests
+apt install -y xfce4 xfce4-goodies nautilus parole ristretto xarchiver gdebi gedit xfce4-taskmanager xfce4-screenshooter xfmpc gnome-terminal --no-install-recommends --no-install-suggests
 apt --fix-broken install
 apt clean && apt autoremove -y
 
