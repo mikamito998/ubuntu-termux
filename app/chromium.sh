@@ -15,4 +15,5 @@ sed -i 's/chromium %U/chromium --no-sandbox --test-type %U/g' /usr/share/applica
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
+rm chromium.sh
 clear
