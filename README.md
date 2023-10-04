@@ -18,7 +18,7 @@ yes | pkg update; pkg upgrade -y; pkg install wget -y; wget https://raw.githubus
 ```
 ### 2. Inside Ubuntu
 ```
-apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm --force proot.sh
+apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm proot.sh
 ```
 ### Note:
 - It contains: Install Latest Ubuntu, Install Lightweight Desktop XFCE, Install VNC HD, Install Box86, Install Box64, Install Wine, Install VirGL ES.
@@ -27,12 +27,12 @@ apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubuserc
 ## Manual installation
 ### 1. Install Ubuntu on Termux
 ```
-yes | pkg update; pkg upgrade -y; pkg install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm --force ubuntu.sh
+yes | pkg update; pkg upgrade -y; pkg install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm ubuntu.sh
 ```
 
 ### 2. Install Desktop XFCE on Ubuntu
 ```
-apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm --force xfce.sh
+apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm xfce.sh
 ```
 
 ### 3. Add User, Add password for Root and User on Ubuntu (Manual)
@@ -57,16 +57,16 @@ echo "proot-distro login --user yourusername ubuntu" >> $PREFIX/bin/user && chmo
 - There are two versions of wine. Wine Stable and Wine Development. Please Choose only one:
 #### 1. Wine 8.0.2 Stable
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm --force box86_64.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_64.sh; chmod +x box86_64.sh; ./box86_64.sh; rm box86_64.sh
 ```
 #### 2. Wine 8.17 Development
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.sh; chmod +x box64.sh; ./box64.sh; rm --force box64.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.sh; chmod +x box64.sh; ./box64.sh; rm box64.sh
 ```
 
 ### 5. Install VirGL ES on Termux
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.sh; chmod +x virgl.sh; ./virgl.sh; rm --force virgl.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.sh; chmod +x virgl.sh; ./virgl.sh; rm virgl.sh
 ```
 
 ### 6. Other Apps
@@ -74,7 +74,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.
 <summary><code><b>Firefox</b></code></summary>
   
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm firefox.sh
 ```
 </details>
 
@@ -82,7 +82,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefo
 <summary><code><b>Chromium</b></code></summary>
   
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm chromium.sh
 ```
 </details>
 
@@ -90,7 +90,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromi
 <summary><code><b>LibreOffice</b></code></summary>
   
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm libreoffice.sh
 ```
 </details>
 
@@ -170,7 +170,7 @@ apt install vim
 <summary><code><b>VS Code</b></code></summary>
 
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/vscode.sh; chmod +x vscode.sh; ./vscode.sh; rm --force vscode.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/vscode.sh; chmod +x vscode.sh; ./vscode.sh; rm vscode.sh
 ```
 </details>
 
@@ -180,7 +180,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/vscode
 ### 8. Install MacOS Theme on Ubuntu (Configure Manually)
 #### 1. Download the required files
 ```
-yes | apt update; yes | apt upgrade; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm --force whitesur.sh
+yes | apt update; yes | apt upgrade; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm whitesur.sh
 ```
 #### 2. Customize Windows Manager Tweak (From here you need to customize MacOS Theme manually in VNC Viewer apps)
 - (Cycling Tab) Uncheck Draw frame around selected windows while cycling,
