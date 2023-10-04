@@ -22,4 +22,3 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefo
 
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm --force user.sh
-clear
