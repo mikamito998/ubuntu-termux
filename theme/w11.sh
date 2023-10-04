@@ -1,6 +1,7 @@
 #/bin/bash
 apt install git gedit rofi -y
 apt install xfce4-panel-profiles xfce4-appmenu-plugin -y
+apt install yaru-theme-gtk yaru-theme-icon ubuntu-wallpapers -y
    wget https://github.com/wahasa/Ubuntu/blob/main/modded/Windows/Icons-Win11.zip?raw=true -O Icons-Win11.zip ; unzip Icons-Win11.zip ; mv Windows-11 /usr/share/icons/
    git clone https://github.com/B00merang-Project/Windows-10-Fluent Windows-11 ; mv Windows-11 /usr/share/themes/
    git clone https://github.com/B00merang-Project/Windows-10-Fluent-Dark Windows-11-Dark ; mv Windows-11-Dark /usr/share/themes/
