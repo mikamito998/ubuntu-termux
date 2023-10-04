@@ -22,3 +22,4 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/code.desktop -P 
 
 rm code*
 rm vscode.sh
+clear
