@@ -2,7 +2,7 @@
 set -e
 
 apt update && apt upgrade -y
-apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra xterm
+apt install -y sudo nano wget zip unzip git tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra xterm
 apt install -y xfce4 xfce4-terminal --no-install-recommends --no-install-suggests
 apt clean && apt autoremove -y
 
