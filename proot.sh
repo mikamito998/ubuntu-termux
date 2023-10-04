@@ -21,5 +21,8 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 #LibreOffice
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm libreoffice.sh
 
+#Others
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/some.sh; chmod +x some.sh; ./some.sh; rm some.sh
+
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
