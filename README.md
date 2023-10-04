@@ -14,7 +14,7 @@
 ## Auto Installation
 ### 1. Inside Termux
 ```
-yes | pkg update; pkg upgrade -y; pkg install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/termux.sh; chmod +x termux.sh; ./termux.sh; rm --force termux.sh
+yes | pkg update; pkg upgrade -y; pkg install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/termux.sh; chmod +x termux.sh; ./termux.sh; rm termux.sh
 ```
 ### 2. Inside Ubuntu
 ```
