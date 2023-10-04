@@ -21,5 +21,3 @@ rm /usr/share/applications/code.desktop
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/code.desktop -P /usr/share/applications/
 
 rm code*
-rm vscode.sh
-clear
