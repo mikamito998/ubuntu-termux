@@ -10,8 +10,9 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AA8E81B4331F7F50
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 112695A0E562B32A
 
 apt update && apt upgrade -y
-add-apt-repository ppa:mozillateam
+#add-apt-repository ppa:mozillateam
 sudo apt install firefox-esr -y
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
+clear
