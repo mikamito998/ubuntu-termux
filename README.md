@@ -1,5 +1,4 @@
 ## Ubuntu on Termux
-It includes:
 - [x] Latest Stable Ubuntu
 - [x] Lightweight XFCE Desktop
 - [x] VNC HD
