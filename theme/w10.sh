@@ -1,6 +1,7 @@
 #/bin/bash
 apt install git gedit plank rofi -y
 apt install xfce4-panel-profiles xfce4-appmenu-plugin -y
+apt install yaru-theme-gtk yaru-theme-icon ubuntu-wallpapers -y
    git clone https://github.com/B00merang-Artwork/Windows-10 ; mv Windows-10 /usr/share/icons/
    git clone https://github.com/B00merang-Project/Windows-10 ; mv Windows-10 /usr/share/themes/
    git clone https://github.com/B00merang-Project/Windows-10-Dark ; mv Windows-10-Dark /usr/share/themes/
