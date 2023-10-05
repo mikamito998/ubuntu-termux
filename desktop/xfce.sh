@@ -2,12 +2,14 @@
 set -e
 
 apt update && apt upgrade -y
-apt install -y python3-uno --no-install-recommends --no-install-suggests
-apt install -y sudo nano wget git zip unzip tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 software-properties-common parole xarchiver gdebi gedit adwaita-icon-theme-full gnome-themes-extra apt-transport-https --no-install-recommends --no-install-suggests
-apt install udisks2 -y
+apt install -y python3-uno gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 udisks2 --no-install-recommends --no-install-suggests
+apt install -y sudo nano wget git zip unzip tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog software-properties-common adwaita-icon-theme-full gnome-themes-extra apt-transport-https --no-install-recommends --no-install-suggests
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
+
+apt update && apt upgrade -y
 apt install -y xfce4 xfce4-goodies xfce4-terminal xfce4-mpc-plugin nautilus --no-install-recommends --no-install-suggests
+apt install -y parole xarchiver gdebi gedit --no-install-recommends --no-install-suggests
 
 apt clean && apt autoremove -y
 apt --fix-broken install
