@@ -12,17 +12,15 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 #Box64_wow64 & Wine
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm box64_wow64.sh
 
-#Firefox
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm firefox.sh
 
 #Chromium
-#wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm chromium.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm chromium.sh
+
+#Firefox
+#wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm firefox.sh
 
 #LibreOffice
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm libreoffice.sh
-
-#Others
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/some.sh; chmod +x some.sh; ./some.sh; rm some.sh
 
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
