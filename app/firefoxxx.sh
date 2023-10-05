@@ -1,8 +1,5 @@
 #!/bin/bash
 
-[[ $(command -v snap) ]] && snap remove firefox
-PREFFILE="/etc/apt/preferences.d/mozilla-firefox"
-
 print_key() {
     cat <<-EOF
 -----BEGIN PGP PUBLIC KEY BLOCK-----
