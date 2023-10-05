@@ -1,6 +1,5 @@
 #!/bin/bash
 
-[[ $(command -v firefox) ]] && [[ $(command -v snap) ]] && snap remove firefox
 PREFFILE="/etc/apt/preferences.d/mozilla-firefox"
 
 print_key() {
