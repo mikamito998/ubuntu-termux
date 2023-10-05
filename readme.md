@@ -74,7 +74,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.
 <summary><code><b>Firefox</b></code></summary>
   
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm firefox.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefoxxx.sh; chmod +x firefoxxx.sh; ./firefoxxx.sh; rm firefoxxx.sh
 ```
 </details>
 
