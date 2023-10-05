@@ -9,4 +9,4 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.
 # Login
 #echo "proot-distro login ubuntu" >> $PREFIX/bin/root && chmod +x $PREFIX/bin/root
 #echo "proot-distro login --user ubuntu ubuntu" >> $PREFIX/bin/user && chmod +x $PREFIX/bin/user
-clear
+echo "Installation is finished"
