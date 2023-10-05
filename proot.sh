@@ -23,3 +23,4 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreo
 
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
+echo "Installation is finished"
