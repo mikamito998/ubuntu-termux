@@ -10,6 +10,8 @@ apt-mark hold udisks2
 apt update && apt upgrade -y
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
 apt install -y xfce4 xfce4-goodies xfce4-terminal xfce4-mpc-plugin nautilus --no-install-recommends --no-install-suggests
+
+apt update && apt upgrade -y
 apt install -y parole xarchiver gdebi gedit --no-install-recommends --no-install-suggests
 
 apt clean && apt autoremove -y
