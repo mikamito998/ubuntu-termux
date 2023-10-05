@@ -2,8 +2,7 @@
 set -e
 
 apt update && apt upgrade -y
-apt install python3-uno
-apt install -y sudo nano wget git zip unzip tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 software-properties-common parole xarchiver gdebi gedit adwaita-icon-theme-full gnome-themes-extra apt-transport-https --no-install-recommends --no-install-suggests
+apt install -y sudo nano wget git zip unzip python3-uno tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 software-properties-common parole xarchiver gdebi gedit adwaita-icon-theme-full gnome-themes-extra apt-transport-https --no-install-recommends --no-install-suggests
 apt install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
