@@ -1,8 +1,7 @@
 #!/bin/bash
 
 install_firefox() {
-	[[ $(command -v firefox) ]] && echo "${Y}Firefox is already Installed!${W}\n" || {
-		echo -e "${G}Installing ${Y}Firefox${W}"
+	[[ $(command -v firefox) ]] 
 
 [[ $(command -v snap) ]] && snap remove firefox
 PREFFILE="/etc/apt/preferences.d/mozilla-firefox"
