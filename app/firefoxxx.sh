@@ -1,9 +1,6 @@
 #!/bin/bash
 
-install_firefox() {
-	[[ $(command -v firefox) ]] 
-&&
-[[ $(command -v snap) ]] && snap remove firefox
+[[ $(command -v firefox) ]] && [[ $(command -v snap) ]] && snap remove firefox
 PREFFILE="/etc/apt/preferences.d/mozilla-firefox"
 
 print_key() {
@@ -182,7 +179,3 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 
 apt-get update
 apt install firefox -y
-		
-    echo -e "${G} Firefox Installed Successfully\n${W}"
-	}
-}
