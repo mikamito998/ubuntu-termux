@@ -24,7 +24,10 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromi
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
 
-# Clean Fix
+#MacOS Theme
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm whitesur.sh
+
+#Clean Fix
 sudo apt install -y software-properties-common --no-install-recommends --no-install-suggests
 sudo apt clean && apt autoremove -y
 sudo apt --fix-broken install && apt update --fix-missing
