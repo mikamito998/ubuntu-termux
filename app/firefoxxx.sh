@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install apt-utils gnupg gnupg1 gnupg2 --no-install-recommends -y
+
 PREFFILE="/etc/apt/preferences.d/mozilla-firefox"
 
 print_key() {
@@ -176,11 +178,5 @@ EOF
 
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 
-apt-get update
-apt install firefox-esr --no-install-recommends --no-install-suggests -y
-
-apt clean && apt autoremove -y
-apt --fix-broken install
-apt update && apt upgrade -y
-dpkg --configure -a
-apt install -f
+sudo apt update && apt upgrade -y
+sudo apt install firefox-esr --no-install-recommends --no-install-suggests -y
