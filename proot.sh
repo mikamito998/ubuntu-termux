@@ -27,6 +27,9 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
 
+#Clean
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/clean.sh; chmod +x clean.sh; ./clean.sh; rm clean.sh
+
 clear
 echo "Installation has been completed."
 echo "Please restart the termux."
