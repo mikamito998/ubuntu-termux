@@ -21,7 +21,10 @@ yes | pkg update; pkg upgrade -y; pkg install wget -y; wget https://raw.githubus
 apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/proot.sh; chmod +x proot.sh; ./proot.sh; rm proot.sh
 ```
 ### Note:
-- It contains: Install Latest Ubuntu, Install Lightweight Desktop XFCE, Install VNC HD, Install Box86, Install Box64, Install Wine, Install VirGL ES.
+- It contains: Install Latest Ubuntu, Install Lightweight Desktop XFCE, Install VNC HD, Install VirGL ES, Install Libre Office, Install Box86 & Box64, Install Wine, Install Firefox, Install Chrome.
+- ```vnc-start``` To start VNC and create password six digits for the first time, ```vnc-stop``` To stop VNC.
+- ```proot-distro login ubuntu``` To enter Ubuntu from Termux.
+- Tested on Redmi Note 8 PRO
 - If you want to install and configure manually, you can use the steps below.
 
 ## Manual installation
