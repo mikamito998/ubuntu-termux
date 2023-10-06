@@ -1,11 +1,12 @@
 #!/bin/bash
 set -e
-sudo apt update && apt upgrade -y
-sudo apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
-sudo apt install -y xfce4 xfce4-goodies xfce4-terminal xfce4-mpc-plugin nautilus --no-install-recommends --no-install-suggests
 
-sudo apt update && apt upgrade -y
-sudo apt install -y parole xarchiver gdebi gedit xterm --no-install-recommends --no-install-suggests
+apt update && apt upgrade -y
+apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
+apt install -y xfce4 xfce4-goodies xfce4-terminal xfce4-mpc-plugin nautilus --no-install-recommends --no-install-suggests
+
+apt update && apt upgrade -y
+apt install -y parole xarchiver gdebi gedit xterm --no-install-recommends --no-install-suggests
 
 mkdir ~/.vnc &> /dev/null
 
@@ -29,9 +30,3 @@ chmod +x /usr/local/bin/x11
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 chmod +x /usr/local/bin/*
-
-sudo apt clean && apt autoremove -y
-sudo apt --fix-broken install && apt update --fix-missing
-sudo apt install -f
-sudo dpkg --configure -a
-sudo apt update && apt upgrade -y
