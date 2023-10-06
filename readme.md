@@ -28,7 +28,7 @@ apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubuserc
 - ```box64 wine explorer``` Open Windows Explorer.
 - ```box64 wine winecfg``` Open Wine Configuration.
 - ```box64 wine setup-example.exe``` Open Windows Apps.exe.
-- It has been tested and runs smoothly on Xiaomi Redmi Note 8 Pro - Android 11. Some devices may not support.
+- It has been tested and runs smoothly on Xiaomi Redmi Note 8 Pro - Android 11 - aarch64. Some devices may not support.
 - If you want to install and configure manually, you can use the steps below.
 
 ## Manual installation
