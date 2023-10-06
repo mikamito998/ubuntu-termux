@@ -23,4 +23,13 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromi
 
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
+
+# Clean and Fix
+apt clean && apt autoremove -y
+apt --fix-broken install && apt update --fix-missing
+apt install -f
+dpkg --configure -a
+apt update && apt upgrade -y
+
+clear
 echo "Installation is finished"
