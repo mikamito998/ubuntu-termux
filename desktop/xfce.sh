@@ -16,12 +16,6 @@ sudo apt install -y xfce4 xfce4-goodies xfce4-terminal xfce4-mpc-plugin nautilus
 sudo apt update && apt upgrade -y
 sudo apt install -y parole xarchiver gdebi gedit xterm --no-install-recommends --no-install-suggests
 
-apt clean && apt autoremove -y
-apt --fix-broken install
-sudo apt update && apt upgrade -y
-dpkg --configure -a
-apt install -f
-
 mkdir ~/.vnc &> /dev/null
 
 echo '#!/bin/bash
