@@ -30,4 +30,3 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 clear
 echo "Installation has been completed."
 echo "Please restart the termux."
-exit
