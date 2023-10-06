@@ -9,16 +9,12 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 648ACFD622F3
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 605C66F00D6C9793
 
-sudo apt update && apt upgrade -y
+sudo apt update
 sudo apt install -y chromium --no-install-recommends --no-install-suggests
+sudo apt clean && apt autoremove -y
 
 sed -i 's/chromium %U/chromium --no-sandbox --test-type %U/g' /usr/share/applications/chromium.desktop
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
 
-sudo apt clean && apt autoremove -y
-sudo apt --fix-broken install && apt update --fix-missing
-sudo apt install -f
-sudo dpkg --configure -a
-sudo apt update && apt upgrade -y
