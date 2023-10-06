@@ -55,4 +55,5 @@ apt clean && apt autoremove -y
 apt --fix-broken install
 apt update && apt upgrade -y
 dpkg --configure -a
+apt update --fix-missing
 apt install -f
