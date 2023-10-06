@@ -22,9 +22,12 @@ apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubuserc
 ```
 ### Note:
 - It contains: Install Latest Ubuntu, Install Lightweight Desktop XFCE, Install VNC HD, Install VirGL ES, Install Libre Office, Install Box86 & Box64, Install Wine, Install Firefox, Install Chrome.
-- ```proot-distro login ubuntu``` To enter Ubuntu from Termux.
-- ```vnc-start``` To start VNC from Ubuntu.
-- ```vnc-stop``` To stop VNC from Ubuntu.
+- ```proot-distro login ubuntu``` Start Ubuntu.
+- ```vnc-start``` Start VNC Desktop.
+- ```vnc-stop``` Stop VNC Desktop.
+- ```box64 wine explorer``` Open Explorer Windows.
+- ```box64 wine winecfg``` Open Wine Configuration.
+- ```box64 wine setup-example.exe``` Open Windows Apps.exe.
 - It has been tested and runs smoothly on Xiaomi Redmi Note 8 Pro - Android 11. Some devices may not support.
 - If you want to install and configure manually, you can use the steps below.
 
