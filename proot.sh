@@ -27,14 +27,6 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whit
 #User
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
 
-#Clean Fix
-sudo apt install -y software-properties-common --no-install-recommends --no-install-suggests
-sudo apt clean && apt autoremove -y
-sudo apt --fix-broken install && apt update --fix-missing
-sudo apt install -f
-sudo dpkg --configure -a
-sudo apt update && apt upgrade -y
-
 clear
 echo "Installation has been completed."
 echo "Please restart the termux."
