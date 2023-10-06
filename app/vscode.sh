@@ -1,4 +1,7 @@
 #!/bin/bash
+
+sudo apt update && apt upgrade -y
+
 case `uname -m` in
       aarch64)
            archurl="arm64" ;;
