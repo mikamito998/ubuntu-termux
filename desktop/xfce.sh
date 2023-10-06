@@ -12,10 +12,6 @@ apt install -y parole xarchiver gdebi gedit xterm --no-install-recommends --no-i
 apt install -y git zip unzip curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
 
 apt clean && apt autoremove -y
-apt --fix-broken install && apt update --fix-missing
-apt install -f
-dpkg --configure -a
-apt update && apt upgrade -y
 
 mkdir ~/.vnc &> /dev/null
 
