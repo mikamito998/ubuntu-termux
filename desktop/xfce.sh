@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-sudo apt install udisks2 -y
+apt install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 sudo apt-mark hold udisks2
 
