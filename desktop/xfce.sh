@@ -1,10 +1,5 @@
 #!/bin/bash
 set -e
-
-apt install udisks2 -y
-echo " " > /var/lib/dpkg/info/udisks2.postinst
-sudo apt-mark hold udisks2
-
 sudo apt update && apt upgrade -y
 sudo apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-common tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
 sudo apt install -y xfce4 xfce4-goodies xfce4-terminal xfce4-mpc-plugin nautilus --no-install-recommends --no-install-suggests
