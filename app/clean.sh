@@ -1,3 +1,5 @@
+# Clean and Fix
+sudo apt install aptitude -y
 sudo apt clean && apt autoremove -y
 sudo apt --fix-broken install && apt update --fix-missing
 sudo apt install -f
