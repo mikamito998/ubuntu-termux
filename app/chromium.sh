@@ -15,9 +15,3 @@ sed -i 's/chromium %U/chromium --no-sandbox --test-type %U/g' /usr/share/applica
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
-
-apt clean && apt autoremove -y
-apt --fix-broken install && apt update --fix-missing
-apt install -f
-dpkg --configure -a
-apt update && apt upgrade -y
