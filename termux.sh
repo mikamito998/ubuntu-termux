@@ -11,4 +11,4 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.
 #echo "proot-distro login --user ubuntu ubuntu" >> $PREFIX/bin/user && chmod +x $PREFIX/bin/user
 
 clear
-echo "Installation is finished"
+echo "Installation has been completed"
