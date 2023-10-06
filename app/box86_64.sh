@@ -50,3 +50,9 @@ exec taskset -c 4-7 box86 wine "$@"
 ' > /usr/local/bin/vulkan
 
 sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/virgl
+
+sudo apt clean && apt autoremove -y
+sudo apt --fix-broken install && apt update --fix-missing
+sudo apt install -f
+sudo dpkg --configure -a
+sudo apt update && apt upgrade -y
