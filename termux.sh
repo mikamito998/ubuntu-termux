@@ -12,3 +12,4 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/virgl.
 
 clear
 echo "Installation has been completed"
+proot-distro login ubuntu
