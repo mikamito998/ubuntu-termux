@@ -6,8 +6,7 @@ WINE_DIR=~/wine
 
 # Install related kits
 sudo dpkg --add-architecture armhf
-sudo apt update
-sudo apt upgrade -y
+sudo apt update && apt upgrade -y
 sudo apt install -y gpg xz-utils --no-install-recommends --no-install-suggests # software-properties-common
 
 # - These packages are needed for running box86/wine-i386 box64/wine-amd64
@@ -17,7 +16,7 @@ sudo apt install -y libgl1:arm64 libasound2:arm64 libc6:arm64 libglib2.0-0:arm64
 # Install box86 box64
 wget https://ryanfortner.github.io/box86-debs/box86.list -O /etc/apt/sources.list.d/box86.list && wget -qO- https://ryanfortner.github.io/box86-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box86-debs-archive-keyring.gpg
 wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list && wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box64-debs-archive-keyring.gpg
-sudo apt update 
+sudo apt update && apt upgrade -y
 sudo apt install box86-android box64-android --no-install-recommends --no-install-suggests
 
 # Download wine
