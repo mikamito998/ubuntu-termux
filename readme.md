@@ -25,7 +25,7 @@ apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubuserc
 - ```proot-distro login ubuntu``` Start Ubuntu.
 - ```vnc-start``` Start VNC Desktop.
 - ```vnc-stop``` Stop VNC Desktop.
-- ```box64 wine explorer``` Open Explorer Windows.
+- ```box64 wine explorer``` Open Windows Explorer.
 - ```box64 wine winecfg``` Open Wine Configuration.
 - ```box64 wine setup-example.exe``` Open Windows Apps.exe.
 - It has been tested and runs smoothly on Xiaomi Redmi Note 8 Pro - Android 11. Some devices may not support.
