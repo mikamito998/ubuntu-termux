@@ -17,7 +17,7 @@ rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
 
 apt clean && apt autoremove -y
-apt --fix-broken install
-apt update && apt upgrade -y
-dpkg --configure -a
+apt --fix-broken install && apt update --fix-missing
 apt install -f
+dpkg --configure -a
+apt update && apt upgrade -y
