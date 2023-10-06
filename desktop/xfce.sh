@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
-#python3-uno software-properties-common
+#python3-uno software-properties-common libreoffice-script-provider-python
 apt update && apt upgrade -y
-apt install -y gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 libreoffice-script-provider-python apt-transport-https --no-install-recommends --no-install-suggests
+apt install -y gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 apt-transport-https --no-install-recommends --no-install-suggests
 
 apt update && apt upgrade -y
 apt install -y git zip unzip curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog udisks2 gpg --no-install-recommends --no-install-suggests
