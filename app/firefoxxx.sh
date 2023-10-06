@@ -177,4 +177,4 @@ EOF
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 
 apt-get update
-apt install firefox-esr -y
+apt install firefox-esr --no-install-recommends --no-install-suggests -y
