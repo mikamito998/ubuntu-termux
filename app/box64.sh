@@ -6,8 +6,7 @@ WINE_DIR=~/wine
 
 # Install related kits
 sudo dpkg --add-architecture armhf
-sudo apt update
-sudo apt upgrade -y
+sudo apt update && apt upgrade -y
 sudo apt install -y gpg xz-utils --no-install-recommends --no-install-suggests #software-properties-common
 
 # - These packages are needed for running box86/wine-i386 box64/wine-amd64
