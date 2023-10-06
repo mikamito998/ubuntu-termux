@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install libreoffice -y
+apt install libreoffice --no-install-recommends --no-install-suggests -y
 rm -rf /usr/lib/libreoffice/program/oosplash
 
 wget -q https://github.com/wahasa/Ubuntu/blob/main/Patch/oosplash?raw=true -O /usr/lib/libreoffice/program/oosplash
