@@ -1,4 +1,3 @@
-#Browser Fix
 cp /etc/apt/sources.list ~/
 
 sudo apt update && apt upgrade -y
