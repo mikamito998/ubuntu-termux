@@ -181,3 +181,9 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 
 apt update && apt upgrade -y
 apt install -y firefox-esr --no-install-recommends --no-install-suggests
+
+sudo apt clean && apt autoremove -y
+sudo apt --fix-broken install && apt update --fix-missing
+sudo apt install -f
+sudo dpkg --configure -a
+sudo apt update && apt upgrade -y
