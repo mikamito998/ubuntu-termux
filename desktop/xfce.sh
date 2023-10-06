@@ -2,10 +2,7 @@
 set -e
 
 sudo apt update && apt upgrade -y
-sudo apt install -y gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 apt-transport-https --no-install-recommends --no-install-suggests #python3-uno software-properties-common libreoffice-script-provider-python
-
-sudo apt update && apt upgrade -y
-sudo apt install -y git zip unzip curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog udisks2 gpg --no-install-recommends --no-install-suggests
+sudo apt install -y udisks2 git zip unzip curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 sudo apt-mark hold udisks2
 
