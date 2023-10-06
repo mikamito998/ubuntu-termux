@@ -1,4 +1,3 @@
-apt purge chromium* chromium-browser* snapd -y
 apt install gnupg2 software-properties-common --no-install-recommends -y
 echo -e "deb http://ftp.debian.org/debian buster main\ndeb http://ftp.debian.org/debian buster-updates main" >> /etc/apt/sources.list
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DCC9EFBF77E11517
@@ -9,3 +8,9 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
 apt update -y
 apt install chromium -y
 sed -i 's/chromium %U/chromium --no-sandbox %U/g' /usr/share/applications/chromium.desktop
+
+apt clean && apt autoremove -y
+apt --fix-broken install && apt update --fix-missing
+apt install -f
+dpkg --configure -a
+apt update && apt upgrade -y
