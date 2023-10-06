@@ -1,8 +1,7 @@
 #!/bin/bash
 set -e
 
-apt update && apt upgrade -y
-apt install -y udisks2 git zip unzip curl xz-utils exo-utils apt-utils at-spi2-core librsvg2-common menu dialog gtk2-engines-murrine gtk2-engines-pixbuf gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
+sudo apt install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 sudo apt-mark hold udisks2
 
