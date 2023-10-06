@@ -33,4 +33,6 @@ sudo dpkg --configure -a
 sudo apt update && apt upgrade -y
 
 clear
-echo "Installation is finished"
+echo "Installation has been completed."
+echo "Please restart the termux."
+exit
