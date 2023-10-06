@@ -24,7 +24,7 @@ apt update -y; apt upgrade -y; apt install wget -y; wget https://raw.githubuserc
 - It contains: Install Latest Ubuntu, Install Lightweight Desktop XFCE, Install VNC HD, Install VirGL ES, Install Libre Office, Install Box86 & Box64, Install Wine, Install Firefox, Install Chrome.
 - ```vnc-start``` To start VNC and create password six digits for the first time, ```vnc-stop``` To stop VNC.
 - ```proot-distro login ubuntu``` To enter Ubuntu from Termux.
-- Tested on Redmi Note 8 PRO
+- Tested on Redmi Note 8 PRO - Android 11
 - If you want to install and configure manually, you can use the steps below.
 
 ## Manual installation
