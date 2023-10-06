@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt update && apt upgrade -y
-sudo apt install -y libreoffice --no-install-recommends --no-install-suggests
+apt update && apt upgrade -y
+apt install -y libreoffice --no-install-recommends --no-install-suggests
 
 rm -rf /usr/lib/libreoffice/program/oosplash
 
