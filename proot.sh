@@ -21,11 +21,11 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefo
 #Chromium
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm chromium.sh
 
+#User
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
+
 #MacOS Theme
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm whitesur.sh
-
-#User
-#wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
 
 #Clean
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/clean.sh; chmod +x clean.sh; ./clean.sh; rm clean.sh
