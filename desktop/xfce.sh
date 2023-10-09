@@ -34,3 +34,11 @@ chmod +x /usr/local/bin/x11
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 chmod +x /usr/local/bin/*
+echo "Please create your VNC Password"
+echo "==============================="
+vnc-start
+clear
+echo "VNC Password has been created"
+echo "============================="
+vnc-stop
+clear
