@@ -2,7 +2,7 @@
 sudo apt install -y git gtk2-engines-murrine
 sudo apt install -y xfce4-panel-profiles xfce4-appmenu-plugin
 sudo apt install -y plank rofi
-vnc-start
+
 git clone https://github.com/adi1090x/rofi
 
 # Theme
@@ -29,4 +29,4 @@ cd .local/share/applications; cat Launchpad.desktop; cd; cd .local/share/icons/W
 
 # Rofi
 cd rofi; ./setup.sh; cd; cd .config/rofi; rm config.rasi;
-vnc-stop
+
