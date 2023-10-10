@@ -61,5 +61,3 @@ exec taskset -c 4-7 box86 wine "$@"
 ' > /usr/local/bin/vulkan
 
 sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/virgl
-
-sudo apt install -y software-properties-common build-essential --no-install-recommends --no-install-suggests
