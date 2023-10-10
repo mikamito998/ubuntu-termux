@@ -16,10 +16,10 @@ sudo apt clean
 sudo apt autoremove -y
 
 # Install Box86
-sudo dpkg --add-architecture armhf
-sudo wget https://Pi-Apps-Coders.github.io/box86-debs/box86.list -O /etc/apt/sources.list.d/box86.list
-wget -qO- https://Pi-Apps-Coders.github.io/box86-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box86-debs-archive-keyring.gpg 
-sudo apt update && sudo apt install box86-android:armhf -y
+#sudo dpkg --add-architecture armhf
+#sudo wget https://Pi-Apps-Coders.github.io/box86-debs/box86.list -O /etc/apt/sources.list.d/box86.list
+#wget -qO- https://Pi-Apps-Coders.github.io/box86-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box86-debs-archive-keyring.gpg 
+#sudo apt update && sudo apt install box86-android:armhf -y
 
 # Install Box64
 sudo wget https://Pi-Apps-Coders.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list
@@ -48,3 +48,22 @@ sudo rm -f /usr/local/bin/wine
 sudo ln -s ${WINE_DIR}/bin/wine /usr/local/bin/wine
 sudo ln -s /usr/local/bin/box64 /usr/local/bin/box86
 sudo chmod +x /usr/local/bin/wine 
+
+
+# Setup something
+echo '#!/bin/bash
+DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 GALLIUM_DRIVER=virpipe MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_EXTENSION_OVERRIDE="GL_EXT_polygon_offset_clamp" \
+exec taskset -c 4-7 box64 wine "$@"
+' > /usr/local/bin/virgl
+
+echo '#!/bin/bash
+DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 TU_DEBUG=noconform MESA_VK_WSI_DEBUG=sw MESA_LOADER_DRIVER_OVERRIDE=zink \
+exec taskset -c 4-7 box64 wine "$@"
+' > /usr/local/bin/zink
+
+echo '#!/bin/bash
+DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 TU_DEBUG=noconform MESA_VK_WSI_DEBUG=sw \
+exec taskset -c 4-7 box64 wine "$@"
+' > /usr/local/bin/vulkan
+
+sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/virgl
