@@ -62,4 +62,4 @@ exec taskset -c 4-7 box86 wine "$@"
 
 sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/virgl
 
-sudo apt install -y software-properties-common build-essential libboost-all-dev python3-pip --no-install-recommends --no-install-suggests
+sudo apt install -y software-properties-common build-essential --no-install-recommends --no-install-suggests
