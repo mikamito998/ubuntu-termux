@@ -2,8 +2,9 @@
 cp /etc/apt/sources.list ~/
 
 sudo apt update && apt upgrade -y
+#sudo apt install -y software-properties-common apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
 
-#wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/passwd -P .vnc/
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/passwd -P .vnc/
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
@@ -23,4 +24,4 @@ wget -O $(find ~/.mozilla/firefox -name *.default-esr)/user.js https://raw.githu
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
-#rm .vnc/passwd
+rm .vnc/passwd
