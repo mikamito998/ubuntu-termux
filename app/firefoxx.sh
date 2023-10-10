@@ -2,7 +2,6 @@
 cp /etc/apt/sources.list ~/
 
 sudo apt update && apt upgrade -y
-sudo apt install -y software-properties-common apt-utils gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
 
 #wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/passwd -P .vnc/
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list
