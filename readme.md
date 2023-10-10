@@ -268,9 +268,7 @@ cd && cd .config/rofi/launchers/type-3 && nano launcher.sh
 cd && cd .config/rofi/launchers/type-3 && nano style-1.rasi
 ```
 ##### Note for Step 2. (nano style-1.rasi) =
-- lines number 27 Main Window, Change to (fullscreen: true;)
-- lines number 38, Change to (background-color: black / 80%;)
-- lines number 59 Inputbar, Change to (margin: 0% 25%;)
+- lines number 38, Change to (background-color: black / 70%;)
 - lines number 97 Listview, Change to (scrollbar: true;)
 - SAVE and EXIT
 
