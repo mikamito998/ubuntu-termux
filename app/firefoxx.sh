@@ -12,12 +12,12 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 605C66F00D6C
 sudo apt update
 sudo apt install -y firefox-esr --no-install-recommends --no-install-suggests
 sudo apt clean && apt autoremove -y
-#vnc-start
+vnc-start
 sleep 5
 DISPLAY=:1 firefox &
 sleep 10
 pkill -f firefox
-#vnc-stop
+vnc-stop
 sleep 2
 
 wget -O $(find ~/.mozilla/firefox -name *.default-esr)/user.js https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/user.js
