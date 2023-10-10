@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update && apt upgrade -y
-sudo apt install -y software-properties-common apt-utils gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
+#sudo apt install -y software-properties-common apt-utils gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
 
 echo -e "deb http://ftp.debian.org/debian buster main\ndeb http://ftp.debian.org/debian buster-updates main" >> /etc/apt/sources.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DCC9EFBF77E11517
