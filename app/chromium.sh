@@ -3,7 +3,7 @@ cp /etc/apt/sources.list ~/
 
 sudo apt update && apt upgrade -y
 sudo apt install -y software-properties-common apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential --no-install-recommends --no-install-suggests
-sudo apt-get install 
+
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
