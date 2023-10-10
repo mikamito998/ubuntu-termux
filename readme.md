@@ -70,6 +70,10 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 ```
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64.sh; chmod +x box64.sh; ./box64.sh; rm box64.sh
 ```
+#### 3. Box64 Wine64 Beta
+```
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box_wine.sh; chmod +x box_wine.sh; ./box_wine.sh; rm box_wine.sh
+```
 
 ### 5. Install VirGL ES on Termux
 ```
