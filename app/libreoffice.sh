@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo apt update
+sudo apt upgrade -y
 sudo apt install -y libreoffice --no-install-recommends --no-install-suggests
 sudo apt clean && apt autoremove -y
 
