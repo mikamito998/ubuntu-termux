@@ -1,5 +1,3 @@
-# Easy Install Ubuntu, VirGL, Login
-
 # Ubuntu
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/distro/ubuntu.sh; chmod +x ubuntu.sh; ./ubuntu.sh; rm ubuntu.sh;
 
@@ -11,12 +9,11 @@ echo "proot-distro login ubuntu" >> $PREFIX/bin/root && chmod +x $PREFIX/bin/roo
 echo "proot-distro login --user ade ubuntu" >> $PREFIX/bin/user && chmod +x $PREFIX/bin/user
 
 # Clean and Fix
-pkg clean && pkg autoremove -y
 apt --fix-broken install && apt update --fix-missing
+pkg clean && pkg autoremove -y
 pkg install -f
 dpkg --configure -a
 pkg update && pkg upgrade -y
 
 clear
 echo "Installation has been completed"
-proot-distro login ubuntu
