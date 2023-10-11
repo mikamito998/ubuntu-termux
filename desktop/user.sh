@@ -9,7 +9,7 @@ echo "====================================="
 echo ""
 echo "Please create a password for User..."
 adduser ade
-addgroup ade
+#addgroup ade
 echo "ade ALL=(ALL:ALL) ALL" >> /etc/sudoers
 usermod -aG sudo ade
 echo "The password for User has been set..."
