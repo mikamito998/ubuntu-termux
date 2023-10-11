@@ -31,8 +31,8 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/us
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/clean.sh; chmod +x clean.sh; ./clean.sh; rm clean.sh
 
 # Clean and Fix
-apt clean && apt autoremove -y
 apt --fix-broken install && apt update --fix-missing
+apt clean && apt autoclean && apt autoremove -y
 apt install -f
 dpkg --configure -a
 apt update && apt upgrade -y
