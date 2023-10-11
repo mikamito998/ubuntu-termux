@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt update && apt upgrade -y
+sudo apt update
 #sudo apt install -y software-properties-common apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 --no-install-recommends --no-install-suggests
 
 PREFFILE="/etc/apt/preferences.d/mozilla-firefox"
