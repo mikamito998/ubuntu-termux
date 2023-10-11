@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromi
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/user.sh; chmod +x user.sh; ./user.sh; rm user.sh
 
 #MacOS Theme
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm whitesur.sh
+#wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/theme/whitesur.sh; chmod +x whitesur.sh; ./whitesur.sh; rm whitesur.sh
 
 #Clean
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/clean.sh; chmod +x clean.sh; ./clean.sh; rm clean.sh
