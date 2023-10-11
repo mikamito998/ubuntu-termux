@@ -1,7 +1,7 @@
 #!/bin/bash
 cp /etc/apt/sources.list ~/
 
-sudo apt update && apt upgrade -y
+sudo apt update
 #sudo apt install -y software-properties-common build-essential --no-install-recommends --no-install-suggests
 #libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev libboost-all-dev python3-pip aptitude xz-utils
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list
