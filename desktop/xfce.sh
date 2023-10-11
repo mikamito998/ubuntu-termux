@@ -12,7 +12,8 @@ apt install -y xfce4 xfce4-terminal xfce4-goodies --no-install-recommends --no-i
 apt install -y xarchiver gedit --no-install-recommends --no-install-suggests
 #apt install -y apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 gtk2-engines-murrine at-spi2-core gvfs git --no-install-recommends --no-install-suggests
 #parole gdebi xterm | librsvg2-common zip curl xfce4-mpc-plugin
-apt clean && apt autoremove -y
+apt clean
+apt autoremove -y
 
 mkdir ~/.vnc &> /dev/null
 
