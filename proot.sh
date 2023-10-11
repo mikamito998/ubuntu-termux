@@ -1,5 +1,3 @@
-#One Click Install XFCE, Box86_64, Wine, User
-
 #XFCE
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/desktop/xfce.sh; chmod +x xfce.sh; ./xfce.sh; rm xfce.sh
 
@@ -14,6 +12,9 @@ wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box86_
 
 #Box64_wow64 & Wine
 #wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box64_wow64.sh; chmod +x box64_wow64.sh; ./box64_wow64.sh; rm box64_wow64.sh
+
+#Box64 Wine64
+#wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/box_wine.sh; chmod +x box_wine.sh; ./box_wine.sh; rm box_wine.sh
 
 #Firefox
 wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefoxxx.sh; chmod +x firefoxxx.sh; ./firefoxxx.sh; rm firefoxxx.sh
