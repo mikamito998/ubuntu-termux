@@ -46,6 +46,7 @@ sudo chmod +x /usr/local/bin/wine /usr/local/bin/wine64
 
 # Driver
 sudo yes | add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt install -y mesa-vdpau-drivers
 
 echo '#!/bin/bash
 DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 GALLIUM_DRIVER=virpipe MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_EXTENSION_OVERRIDE="GL_EXT_polygon_offset_clamp" \
