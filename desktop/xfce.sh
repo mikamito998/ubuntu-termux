@@ -43,8 +43,7 @@ clear
 echo "Create Password for VNC"
 echo "========================"
 vnc-start
-clear
-echo "VNC Password has been created"
-echo "============================="
 vnc-stop
 clear
+echo "Success"
+echo "======="
