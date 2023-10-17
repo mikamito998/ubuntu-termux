@@ -9,9 +9,7 @@ apt-mark hold udisks2
 
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
 apt install -y xfce4 xfce4-terminal --no-install-recommends --no-install-suggests
-#apt install -y xarchiver gedit --no-install-recommends --no-install-suggests
-#apt install -y apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 gtk2-engines-murrine at-spi2-core gvfs git --no-install-recommends --no-install-suggests
-#parole gdebi xterm | librsvg2-common zip curl xfce4-mpc-plugin xfce4-goodies
+
 apt clean
 apt autoremove -y
 
@@ -47,3 +45,6 @@ vnc-stop
 clear
 echo "Success"
 echo "======="
+#apt install -y xarchiver gedit --no-install-recommends --no-install-suggests
+#apt install -y apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 gtk2-engines-murrine at-spi2-core gvfs git --no-install-recommends --no-install-suggests
+#parole gdebi xterm | librsvg2-common zip curl xfce4-mpc-plugin xfce4-goodies
