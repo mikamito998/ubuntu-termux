@@ -2,7 +2,7 @@
 set -e
 
 WINE_DIR=~/wine-wow64
-WINE_WOW64=https://github.com/Pi-Apps-Coders/files/releases/download/large-files/wine-8.17.tar.gz
+WINE_WOW64=https://github.com/Pi-Apps-Coders/files/releases/download/large-files/wine-8.18.tar.gz
 
 # Install related kits
 sudo apt update
