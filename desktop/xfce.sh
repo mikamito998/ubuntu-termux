@@ -8,10 +8,10 @@ echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
-apt install -y xfce4 xfce4-terminal xfce4-goodies --no-install-recommends --no-install-suggests
-apt install -y xarchiver gedit --no-install-recommends --no-install-suggests
+apt install -y xfce4 xfce4-terminal --no-install-recommends --no-install-suggests
+#apt install -y xarchiver gedit --no-install-recommends --no-install-suggests
 #apt install -y apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 gtk2-engines-murrine at-spi2-core gvfs git --no-install-recommends --no-install-suggests
-#parole gdebi xterm | librsvg2-common zip curl xfce4-mpc-plugin
+#parole gdebi xterm | librsvg2-common zip curl xfce4-mpc-plugin xfce4-goodies
 apt clean
 apt autoremove -y
 
@@ -27,7 +27,7 @@ echo "#!/bin/sh
 export DISPLAY=:1
 export PULSE_SERVER=127.0.0.1
 rm -rf /run/dbus/dbus.pid
-dbus-launch xfce4-session" > /usr/local/bin/vnc-start
+dbus-launch xfce4-session" > /usr/local/bin/vncstart
 
 echo 'taskset -c 4-7 termux-x11 :1 -xstartup startxfce4 2> /dev/null &' > /usr/local/bin/x11
 echo 'vncserver :1 -name remote-desktop -geometry 1366x768 -localhost no' > /usr/local/bin/vnc-start
