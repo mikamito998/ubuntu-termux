@@ -23,8 +23,8 @@ apt update
 apt install box86-android
 
 # Install Box64 ryanfortner
-wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list && wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box64-debs-archive-keyring.gpg 
-apt update 
+wget https://ryanfortner.github.io/box64-debs/box64.list -O /etc/apt/sources.list.d/box64.list && wget -qO- https://ryanfortner.github.io/box64-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box64-debs-archive-keyring.gpg
+apt update
 apt install box64-android
 
 # Download wine
@@ -32,29 +32,10 @@ rm -rf ${WINE_DIR}
 wget --quiet --show-progress --continue --directory-prefix ${WINE_DIR} ${WINE_WOW64}
 tar -xf ${WINE_DIR}/* --directory ${WINE_DIR}
 mv ${WINE_DIR}/wine*/* ${WINE_DIR}
-rm -rf ${WINE_DIR}/wine* 
+rm -rf ${WINE_DIR}/wine*
 
 # Install symlinks
-rm -f /usr/local/bin/wine 
+rm -f /usr/local/bin/wine
 ln -s ${WINE_DIR}/bin/wine /usr/local/bin/wine
 ln -s /usr/local/bin/box64 /usr/local/bin/box86
-chmod +x /usr/local/bin/wine 
-
-
-# Setup Driver
-echo '#!/bin/bash
-DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 GALLIUM_DRIVER=virpipe MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_EXTENSION_OVERRIDE="GL_EXT_polygon_offset_clamp" \
-exec taskset -c 4-7 box64 wine "$@"
-' > /usr/local/bin/virgl
-
-echo '#!/bin/bash
-DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 TU_DEBUG=noconform MESA_VK_WSI_DEBUG=sw MESA_LOADER_DRIVER_OVERRIDE=zink \
-exec taskset -c 4-7 box64 wine "$@"
-' > /usr/local/bin/zink
-
-echo '#!/bin/bash
-DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 TU_DEBUG=noconform MESA_VK_WSI_DEBUG=sw \
-exec taskset -c 4-7 box64 wine "$@"
-' > /usr/local/bin/vulkan
-
-sudo chmod +x /usr/local/bin/vulkan /usr/local/bin/zink /usr/local/bin/virgl
+chmod +x /usr/local/bin/wine
