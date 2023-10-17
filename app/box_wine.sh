@@ -14,7 +14,9 @@ apt install -y mesa-vdpau-drivers --no-install-recommends --no-install-suggests
 
 # Clean
 apt clean
-apt autoremove -y
+apt apt autoremove -y
+apt update
+apt upgrade -y
 
 # Install Box86 Box64
 wget https://ryanfortner.github.io/box86-debs/box86.list -O /etc/apt/sources.list.d/box86.list && wget -qO- https://ryanfortner.github.io/box86-debs/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/box86-debs-archive-keyring.gpg 
