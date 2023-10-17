@@ -20,7 +20,7 @@ sudo apt install -y libgl1 libasound2 libc6 libglib2.0-0 libgphoto2-6 libgphoto2
 sudo apt clean
 sudo apt autoremove -y
 
-# Install Box86 Box64
+# Install Box64
 wget --quiet --show-progress --continue ${BOX86_DEB} ${BOX64_DEB}
 sudo apt install -y ./box*.deb
 rm --force ./box*.deb
