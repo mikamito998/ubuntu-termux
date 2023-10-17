@@ -39,7 +39,8 @@ chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 chmod +x /usr/local/bin/*
 
-echo "Please create your VNC Password"
+clear
+echo "Create VNC Password"
 echo "==============================="
 vnc-start
 clear
