@@ -40,8 +40,8 @@ chmod +x /usr/local/bin/vnc-stop
 chmod +x /usr/local/bin/*
 
 clear
-echo "Create VNC Password"
-echo "==============================="
+echo "Create Password for VNC"
+echo "========================"
 vnc-start
 clear
 echo "VNC Password has been created"
