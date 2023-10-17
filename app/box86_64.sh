@@ -40,8 +40,7 @@ sudo ln -s ${WINE_DIR}/bin/wine /usr/local/bin/wine
 sudo ln -s ${WINE_DIR}/bin/wine64 /usr/local/bin/wine64
 sudo chmod +x /usr/local/bin/wine /usr/local/bin/wine64
 
-# Setup something
-
+# Setup Driver
 echo '#!/bin/bash
 DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 GALLIUM_DRIVER=virpipe MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_EXTENSION_OVERRIDE="GL_EXT_polygon_offset_clamp" \
 exec taskset -c 4-7 box64 wine "$@"
