@@ -8,7 +8,7 @@ echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
-apt install -y xfce4 xfce4-terminal --no-install-recommends --no-install-suggests
+apt install -y xfce4 xfce4-goodies --no-install-recommends --no-install-suggests
 apt install -y build-essential software-properties-common --no-install-recommends --no-install-suggests
 
 apt clean
