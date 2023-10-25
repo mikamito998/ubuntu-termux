@@ -2,7 +2,7 @@
 set -e
 
 BOX64_DEB=https://github.com/xDoge26/Proot-Setup/raw/main/Packages/box64-android_0.2.2-1_arm64.deb
-WINE_AMD64=https://github.com/Kron4ek/Wine-Builds/releases/download/8.17/wine-8.17-staging-tkg-amd64.tar.xz
+WINE_AMD64=https://github.com/Kron4ek/Wine-Builds/releases/download/8.18/wine-8.18-staging-tkg-amd64.tar.xz
 WINE_DIR=~/wine
 
 # Install related kits
