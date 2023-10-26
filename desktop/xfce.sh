@@ -3,7 +3,7 @@ set -e
 
 apt update
 apt upgrade -y
-apt install -y udisks2 --no-install-recommends --no-install-suggests
+apt install -y udisks2 aptitude --no-install-recommends --no-install-suggests
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 
