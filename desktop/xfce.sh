@@ -43,7 +43,6 @@ echo "Create Password for VNC"
 echo "========================"
 vnc-start
 vnc-stop
-clear
-echo "Success"
+echo "Password has been created"
 echo "======="
 #apt install -y xarchiver gedit parole gdebi xterm zip curl --no-install-recommends --no-install-suggests
