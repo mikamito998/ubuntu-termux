@@ -3,13 +3,13 @@ set -e
 
 apt update
 apt upgrade -y
-apt install -y udisks2 aptitude --no-install-recommends --no-install-suggests
+apt install -y udisks2 --no-install-recommends --no-install-suggests
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 
 apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server tigervnc-tools adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
 apt install -y xfce4 xfce4-goodies --no-install-recommends --no-install-suggests
-apt install -y apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 gtk2-engines-murrine at-spi2-core gvfs git --no-install-recommends --no-install-suggests
+apt install -y aptitude build-essential software-properties-common apt-utils exo-utils xz-utils gnupg gnupg1 gnupg2 gtk2-engines-murrine at-spi2-core gvfs git --no-install-recommends --no-install-suggests
 
 apt clean
 apt autoremove -y
