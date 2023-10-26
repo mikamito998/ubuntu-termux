@@ -35,7 +35,7 @@ sudo ln -s /usr/local/bin/box64 /usr/local/bin/box86
 sudo chmod +x /usr/local/bin/wine 
 
 # Install Driver
-sudo apt install -y mesa-vdpau-drivers --no-install-recommends --no-install-suggests
+#sudo apt install -y mesa-vdpau-drivers --no-install-recommends --no-install-suggests
 
 echo '#!/bin/bash
 DISPLAY=:1 WINE_DEBUG=-all MESA_NO_ERROR=1 GALLIUM_DRIVER=virpipe MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_EXTENSION_OVERRIDE="GL_EXT_polygon_offset_clamp" \
